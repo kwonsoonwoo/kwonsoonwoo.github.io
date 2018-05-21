@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Python 용어정리
+title: Python 용어정리 및 숫자와 문자열
 excerpt_separator:  <!--more-->
 ---
 
