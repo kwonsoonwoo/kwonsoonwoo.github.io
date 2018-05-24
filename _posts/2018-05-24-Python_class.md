@@ -1,0 +1,423 @@
+---
+layout: post
+title: 클래스 (class)
+excerpt_separator:  <!--more-->
+---
+
+
+
+# 클래스 (Class)
+
+ ## 객체지향 프로그래밍
+
+파이썬의 모든것은 객체이며, 객체를 사용할 때는 변수에 해당 객체를 참조(`Reference`)시켜 사용한다.
+객체는 변수와 함수를 가지며, 특별히 **객체**가 가진 **변수**와 **함수**는 각각 **속성(attribute)**과 **메서드(method)**라고 부른다.
+
+객체는 어떠한 타입, 즉 특정한 **클래스**의 형태를 가진 **인스턴스**를 나타낸다.
+
+
+
+### 클래스
+
+클래스는 객체를 만들기 위한 틀이다. (현실에 비유할 경우, 붕어빵과 붕어빵 틀이라고 생각하는것이 일반적이다)
+
+예를 들어, 상점(가게)를 나타내기 위한 클래스를 만든다고 해보면 아래와 같이 사용할 수 있다.
+
+```python
+class Shop:
+    def __init__(self, name):   # <-초기화 메서드
+        self.name = name
+```
+
+위 코드에서, `__init__`은 클래스를 사용한 객체의 초기화 메서드이다. 객체를 생성할 때 인자를 어떻게 전달받고, 받은 인자를 이용해 어떤 객체를 생성할 지 정의할 수 있다.
+
+
+
+위 클래스를 사용해서 객체를 생성해본다.
+
+```python
+In [1]: from class_sample import Shop
+In [2]: lotteria = Shop('Lotteria')
+```
+
+위 코드는 아래 순서로 동작.
+
+1. Shop 클래스가 정의되었는지 찾는다.
+2. Shop 클래스형 객체를 메모리에 생성한다.
+3. 생성한 객체의 초기화 메서드 ```__init__()```을 호출한다.
+4. name값을 저장하고, 만들어진 객체를 반환한다.
+5. ```lotteria```변수에 반환된 객체를 할당한다.
+
+객체의 메서드를 정의할 때, 첫 번째 인수는 항상 ```self```이다. ```self```에는 메서드를 호출하는 객체 자신이 자동으로 전달된다.
+
+이렇게 ```self```가 자동으로 호출되는 이유는 클래스의 메서드를 사용할 때 어떤 객체가 해당 메서드를 사용하고 있는지 알 수 있도록 하기 위해서이다. 또한 이렇게 하나의 메서드를 여러 객체가 공유할 수 있다.
+
+속성이나 메서드에 접근할 때는 ```객체.속성명```또는 ```객체.메서드명```을 사용한다.
+
+**```Shop```클래스에 ```show_info```메서드를 정의해본다.**
+
+```python
+class Shop:
+	def __init__(self,name):
+		self.name = name
+		
+	def show_info():
+		print(f'상점정보 ({self.name})')
+```
+
+**해당 메서드는**
+
+```
+상점정보 (<상점명>)
+```
+
+을 출력한다.
+
+
+
+**클래스 속성**
+
+어떤 하나의 클래스로부터 생성된 객체들이 같은 값을 가지게 하고 싶을 경우, 클래스 속성(class attribute)를 사용한다.
+
+```python
+class Shop:
+	description = 'Python Shop Class'
+	def __init__(self, name):
+		self.name = name
+```
+
+마찬가지로, 객체들에게서 각각의 인스턴스와는 별개의 공통된 메서드를 사용하게하고 싶을 경우 클래스 메서드(class method)를 사용한다.
+
+
+
+### 메서드
+
+**인스턴스 메서드**
+
+인스턴스 메서드는 첫 번째 인수로 ```self```를 가진다. 인스턴스를 이용해 메서드를 호출할 때 호출한 인스턴스가 자동으로 전달되며, 전달받은 인스턴스는 상태를 확인하거나 조작하는데에 사용된다.
+
+>**실습**
+>
+>```Shop```클래스의 초기화 메서드 인자로 ```shop_type```과 ```address```를 추가하고, 해당 인자들을 사용해 객체의 초기값을 만들어준다
+>
+>```Shop```클래스의 인스턴스 메서드 ```show_info```를 아래와 같은 결과를 출력할 수 있도록 수정해본다
+
+```
+>>> shop.show_info()
+상점 (롯데리아)
+  유형: 패스트푸드
+  주소: 서울시 강남구
+```
+
+
+
+```python
+class Shop:
+	def __init__(self, name, shop_type, address):
+		self.name = name
+		self.shop_type = shop_type
+		self.address = address
+		
+	def show_info():
+		print(f'상점 ({self.name})')
+		print(f'유형: {self.shop_type}')
+		print(f'주소: {address}')
+		
+lotteria = Shop('롯데리아', '패스트푸드', '서울시 강남구')
+lotteria.show_info()
+```
+
+
+
+>**실습**
+>
+>```Shop```클래스에 ```change_type```인스턴스 메서드를 추가하고, 상점유형(shop_type)을 변경할 수 있는 기능을 추가한다
+>
+>새로운 ```Shop```인스턴스를 하나 생성하고, ```show_info()```인스턴스 메서드를 사용해 본 후 ```change_type```메서드를 사용해 ```shop_type```을 변경시키고 다시 ```show_info()```메서드를 실행해 결과가 잘 반영되었는지 확인한다
+
+
+
+```python
+class Shop:
+	def __init__(self, name, shop_type, address):
+		self.name = name
+		self.shop_type = shop_type
+		self.address = address
+		
+	def show_info():
+		print(f'상점 ({self.name})')
+		print(f'유형: {self.shop_type}')
+		print(f'주소: {address}')
+        
+    def change_type(self, new_shop_type):
+        self.shop_type = new_shop_type
+		
+lotteria = Shop('롯데리아', '패스트푸드'->'오락실'(변경), '서울시 강남구')
+lotteria.show_info()
+
+상점 (롯데리아)
+  유형: 오락실
+  주소: 서울시 강남구
+```
+
+
+
+### 속성 접근 지정자 (attribute access modifier)
+
+**캡슐화**
+
+객체를 구현할 때, 사용자가 반드시 알아야 할 데이터나 메서드를 제외한 부분을 은닉시켜 정해진 방법을 통해서만 객체를 조작할 수 있도록 하는 방식.
+
+객체의 데이터나 메서드의 은닉 정도를 결정할 때, 속성 접근 지정자를 사용한다.
+
+- ```change_type```메서드나 ```change_description```클래스 메서드를 사용하지 않고도 내부 내용을 변경할 수 있다.
+
+속성 이름을 ```__```로 시작하면, 외부에서의 접근을 제한한다. 이 경우를 ```private 지정자```라고 한다.
+
+- ```shop_type```의 이름을 ```__shop_type```으로 바꾸고 외부에서 직접 변경해본다.
+- 실제 이름은 ```_<클래스명>__<속성명>```으로 되어있다.
+
+```python
+class Shop:
+	def __init__(self, name, shop_type, address):
+		self.name = name
+		self.shop_type -> __shop_type = shop_type
+		self.address = address
+		
+	def show_info(self):
+		print(
+		f'상점정보 ({self.name})\n'
+		f'유형: {self.shop_type->__shop_type}\n'
+		f'주소: {self.address}'
+		)
+		
+	def change_type(self, new_shop_type):
+		self.shop_type->__shop_type = new_shop_type
+        
+lotteria.change_type('레스토랑')
+lotteria.show_info()
+
+상점정보 (롯데리아)
+유형: 레스토랑
+주소: 서울시 강남구
+```
+
+
+
+
+
+파이썬은 속성을 실제로 사용하지 못하도록 숨기지 않고, 네임 맹글링(name mangling)이라는 기법을 사용한다. 파이썬에서는 문법적으로 ```private```데이터에 대한 접근을 막는 법을 제공하지는 않는다.
+
+
+
+#### get/set속성값과 프로퍼티
+
+파이썬에서는 지원하지 않지만, 어떤 언어들은 외부에서 접근할 수 없는 ```private```객체 속성을 지원한다. 이 경우, 객체에서는 해당 속성을 읽고 쓰기 위해 ```getter```, ```setter```메서드를 사용해야 한다.
+
+파이썬에서는 해당 기능을 프로퍼티(property)를 사용해 간편히 구현한다.
+
+- 실제 getter, setter를 구현해본다.
+
+```python
+class Shop:
+	def __init__(self, name, shop_type, address):
+		self.name = name
+		self.shop_type = shop_type
+		self.address = address
+		
+	def show_info(self):
+		print(
+		f'상점정보 ({self.name})\n'
+		f'유형: {self.shop_type}\n'
+		f'주소: {self.address}'
+		)
+		
+	def change_type(self, new_shop_type):
+		self.shop_type = new_shop_type
+		
+	@property
+    def shop_type(self):
+    	return self.__shop_type
+    	
+    @shop_type.setter
+    def shop_type(self, new_shop_type):
+    	self.__shop_type = new_shop_type
+    	print(f'새 상점 유형 ({new_shop_type)} 작용')
+        
+lotteria.shop_type('오락실')
+새 상점 유형 (오락실) 적용
+
+lotteria.show_info()
+상점정보 (롯데리아)
+유형: 오락실
+주소: 서울시 강남구
+
+```
+
+`setter`프로퍼티를 명시하지 않으면 읽기전용이 되어 외부에서 조작할 수 없게 된다.
+
+
+
+#### 상속 (Inheritance)
+
+거의 비슷한 기능을 수행하나, 약간의 추가적인 기능이 필요한 다른 클래스가 필요할  경우 기존의 클래스를 상속받은 새 클래스를 사용하는 형태로 문제를 해결할 수 있다.
+
+이 때, 상속 되는 클래스를 부모(상위)클래스라고 하며, 상속을 받는 클래스는 자식(하위)클래스라고 한다.
+
+
+
+상속을 받을때는 클래스의 정의 다음 괄호에 부모 클래스를 적어주면 된다.
+
+```python
+class Restaurant(Shop):
+	pass
+```
+
+상속받은 클래스는 부모 클래스의 모든 속성고 메서드를 사용할 수 있다.
+
+
+
+**메서드 오버라이드**
+
+상속받은 클래스에서, 부모 클래스의 메서드와는 다른 동작을 하도록 할 수 있다. 이 경우 부모 클래스의 메서드를 덮어씌워서 사용하도록 하며, 이 방법을 메서드 오버라이드(method override)라고 한다.
+
+- ```show_info```메서드에서 ```상점```이 아닌 ```식당```으로 표현되도록 메서드를 오버라이드해 새로 정의해본다.
+
+  
+
+#### 부모 클래스의 메서드를 호출 (super)
+
+자식클래스의 메서드에서 부모 클래스에서 사용하는 메서드의 전체를 새로 쓰는것이 아닌, 부모 클래스의 메서드를 호출 후 해당 내용으로 새로운 작업을 해야 할 경우 `super()`메서드를 사용해서 부모 클래스의 메서드를 직접 호출할 수 있다.
+
+```python
+class Restaurant(Shop):
+	def __init__(self, name, shop_type, address, rating):
+		super().__init__(name, shop_type, address)
+		self.rating = rating
+```
+
+위 코드의 경우, `super()`메서드를 사용해서 부모의 `__init__` 메서드를 호출한다.
+
+
+
+#### 정적(스태틱) 메서드
+
+스태틱 메서드는 클래스 내부에 정의된 일반 함수이며, 단지 클래스나 인스턴스를 통해서 접근할 수 있을 뿐 해당 클래스나 인스턴스에 영향을 주는 것은 불가능하다.
+
+스태틱메서드는 `@staticmethod`데코레이터를 붙여 선언한다.
+
+스태틱메서드는 다양한 방식으로 인스턴스를 생성하는 클래스를 작성할 때 자주 사용된다. `__init__()`초기화 함수는 하나만 존재할 수 있기 때문에, 다른 생성함수를 정적 메서드로 만들어 사용할 수 있다.
+
+
+
+```python
+import random
+
+class Pokemon:
+	def __init__(self, name, type):
+		self.name = name
+		self.type = type
+		
+	@staticmethod
+	def electric():
+		pokemons = ('피카츄', '라이츄', '붐볼')
+		selected_pokemon = random.choice(pokemons)
+		return Pokemon(selected_pokemon, '전기')
+		
+	@staticmethod
+	def water():
+		pokemons = ('꼬부기', '아쿠스타', '라프라스')
+		selected_pokemon = random.choice(pokemons)
+		return Champion(selected_pokemon, '물')
+```
+
+
+
+#### 클래스 메서드
+
+클래스 메서드는 클래스 속성에 대해 동작하는 메서드이다. 위의 인스턴스 메서드와 달리 호출 주체가 클래스이며, 첫 번째 인자도 클래스이다.
+만약 인스턴스가 첫 번째 인자로 주어지더라도 해당 인자의 클래스로 자동으로 바뀌어 전달된다.
+
+클래스메서드는 `@classmethod`데코레이터를 붙여 선언하며, 첫 번째 인자의 이름은 관용적으로 `cls`를 사용한다.
+
+클래스 메서드를 사용하면 부모 클래스를 상속받은 자식클래스에서 해당 부모클래스의 클래스 메서드를 사용할 경우, 자기 자신(자식)의 클래스를 사용할 수 있다.
+
+
+
+**실습**
+
+- `Shop`클래스에 클래스 속성 `description`을 수정하는 클래스 메서드를 작성한다.
+
+- `Shop`에 `name`과 `description`을 각각 `미정`, `알수없음`으로 생성해 반환하는 `dummy_shop()`클래스 메서드를 생성한다.
+  이 클래스 메서드는 `Shop`을 상속받은 `Restaurant`와 같은 자식클래스에서 사용할 경우, 해당 자식클래스의 인스턴스를 반환하도록 해야한다.
+
+  ```python
+  class Shop:
+  	description = 'Shop class'
+  	def __init__(self, name):
+  		self.name = name
+  	
+  	
+  	@classmethod
+  	def change_description(cls, desc):
+  		cls.description = desc
+  ```
+
+  
+
+
+
+### 다형성 동적 바인딩
+
+다형성은 관용적으로는 일반적으로 하나의 코드가 여러 역할을 한다는 의미이다. 예를 들어, `str()`이라는 내장 함수는 인수로 전달되는 객체의 타입에 관계 없이 해당 객체를 문자열 형으로 형변환 시켜준다. 이는 `str()`함수가 다형성을 띄고 있다는 말이며, 하나의 함수가 여러 타입의 객체를 처리할 수 있도록 설계되어 있음을 나타낸다.
+
+동적 바인딩은 타입을 신경 쓰지 않고 인스턴스를 사용할 수 있게 해주는 방식이다. 위의 다형성과 맞물려 다형성을 띄는 함수에 타입에 관계없이 다양한 객체들을 인수로 전달할 수 있다.
+
+동적 바인딩은 속성 검색과정을 통해서 이루어진다. `obj.attr`을 통해 속성에 접근하면, 인스턴스에서 `attr`을, 다음엔 클래스에서, 그 다음에는 상속받은 클래스에서 해당 속성을 검색하며 가장 먼저 검색한 속성을 반환한다.
+
+동적으로 속성을 바인딩하는 과정은 `obj`객체의 타입에 영향받지 않으며, 오로지 해당 객체가 `attr`에 해당하는 속성을 가졌는지만 검사한다. 위의 `str()`함수를 예로 들면, `str()`함수는 전달된 인수의 `__str__()`속성을 리턴한다.
+
+이러한 작동방식은 '오리처럼 울고걸으면 그것은 오리이다'라는 말에서 유래한 `덕 타이핑(duck typing)`이라고 한다. 덕 타이핑은 동적 타이핑의 한 종류이며, 객체가 가진 변수와 메서드가 해당 객체의 타입을 결정함을 말한다.
+
+- [https://ko.wikipedia.org/wiki/다형성](https://ko.wikipedia.org/wiki/%EB%8B%A4%ED%98%95%EC%84%B1_(%EC%BB%B4%ED%93%A8%ED%84%B0_%EA%B3%BC%ED%95%99))
+
+- [https://ko.wikipedia.org/wiki/덕_타이핑](https://ko.wikipedia.org/wiki/%EB%8D%95_%ED%83%80%EC%9D%B4%ED%95%91)
+
+- <https://en.wikipedia.org/wiki/Late_binding>
+
+  
+
+```
+User, Sword, Shield클래스를 정의하고 속성을 동적으로 접근해본다.
+
+User:
+	- attrs
+	name
+	atk = 0
+	def = 0
+
+	- methods
+	equip(item)
+		item의 'use()'메서드를 사용
+		이때 자기자신(인스턴스)를 전달
+	
+Sword, Shield:
+	- methods
+	use(user)
+		user로 전달된 인스턴스의 특정 능력치를 높임
+```
+
+
+
+## 실습
+
+1. 일상생활에서 접할 수 있는 서로 연관되는 어떠한 것들에 대하여 3개의 클래스를 만들고, 각각에게 영향을 줄 수 있는 메서드를 만들고 사용해서 다른 인스턴스의 속성에 영향을 주는 코드를 작성해본다.
+
+- ex) 사람 클래스와 고양이 클래스 -> 사람이 '먹이준다' 메서드 실행 시 고양이 인스턴스를 전달, 고양이 인스턴스의 포만감을 +
+
+2. 외부에서 조작하면 문제가 생길 수 있는 속성을 `private`하게 지정되도록 이름을 바꾸고, `property`를 만들어 본다. `setter`가 필요없는 속성은 읽기전용으로 남겨두며, 변경해야 하는 속성은 `setter`를 구현하고 제한조건을 만든다
+
+- ex) 음식을 먹고 포만감을 늘리는 메서드 -> 포만감이 100이상이면 먹지 않도록  
+
+
+
