@@ -8,7 +8,7 @@ excerpt_separator:  <!--more-->
 
 # 클래스 (Class)
 
- ## 객체지향 프로그래밍
+##객체지향 프로그래밍
 
 파이썬의 모든것은 객체이며, 객체를 사용할 때는 변수에 해당 객체를 참조(`Reference`)시켜 사용한다.
 객체는 변수와 함수를 가지며, 특별히 **객체**가 가진 **변수**와 **함수**는 각각 **속성(attribute)**과 **메서드(method)**라고 부른다.
@@ -414,6 +414,41 @@ Sword, Shield:
 1. 일상생활에서 접할 수 있는 서로 연관되는 어떠한 것들에 대하여 3개의 클래스를 만들고, 각각에게 영향을 줄 수 있는 메서드를 만들고 사용해서 다른 인스턴스의 속성에 영향을 주는 코드를 작성해본다.
 
 - ex) 사람 클래스와 고양이 클래스 -> 사람이 '먹이준다' 메서드 실행 시 고양이 인스턴스를 전달, 고양이 인스턴스의 포만감을 +
+
+  ```python
+  class Sw:
+      def __init__(self, name):
+          self.name = name
+          self.money = 0
+          self.happy = 0
+          
+      def earn(self, item):
+          item.sw(self)
+          
+      def __repr__(self):
+          return f'{self.name} (money: {self.money}만큼 벌었다!, happy: {self.happy}만큼 증가했다!)'
+          
+  class Money:
+      def sw(self, sw):
+          sw.money += 10
+          
+  class Happy:
+      def sw(self, sw):
+          sw.happy += 10
+          
+  me = Sw('권순우')
+  money1 = Money()
+  happy1 = Happy()
+  
+  me.earn(money1)
+  me.earn(happy1)
+  me
+  
+  #예상 출력 결과
+  권순우 (money: 10만큼 벌었다!, happy: 10만큼 증가했다!)
+  ```
+
+  
 
 2. 외부에서 조작하면 문제가 생길 수 있는 속성을 `private`하게 지정되도록 이름을 바꾸고, `property`를 만들어 본다. `setter`가 필요없는 속성은 읽기전용으로 남겨두며, 변경해야 하는 속성은 `setter`를 구현하고 제한조건을 만든다
 
