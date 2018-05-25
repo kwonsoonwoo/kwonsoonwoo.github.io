@@ -152,7 +152,8 @@ class Shop:
     def change_type(self, new_shop_type):
         self.shop_type = new_shop_type
 		
-lotteria = Shop('롯데리아', '패스트푸드'->'오락실'(변경), '서울시 강남구')
+lotteria = Shop('롯데리아', '패스트푸드', '서울시 강남구')
+lotteria.change_type('오락실')
 lotteria.show_info()
 
 상점 (롯데리아)
@@ -242,15 +243,13 @@ class Shop:
     @shop_type.setter
     def shop_type(self, new_shop_type):
     	self.__shop_type = new_shop_type
-    	print(f'새 상점 유형 ({new_shop_type)} 작용')
+    	print(f'새 상점 유형 ({new_shop_type)} 적용')
         
 lotteria.shop_type('오락실')
 새 상점 유형 (오락실) 적용
 
-lotteria.show_info()
-상점정보 (롯데리아)
-유형: 오락실
-주소: 서울시 강남구
+lottria.shop_type
+'오락실'
 
 ```
 
