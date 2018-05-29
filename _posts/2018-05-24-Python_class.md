@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 클래스 (class)
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 
@@ -60,7 +60,7 @@ In [2]: lotteria = Shop('Lotteria')
 class Shop:
 	def __init__(self,name):
 		self.name = name
-		
+
 	def show_info():
 		print(f'상점정보 ({self.name})')
 ```
@@ -117,12 +117,12 @@ class Shop:
 		self.name = name
 		self.shop_type = shop_type
 		self.address = address
-		
+
 	def show_info():
 		print(f'상점 ({self.name})')
 		print(f'유형: {self.shop_type}')
 		print(f'주소: {address}')
-		
+
 lotteria = Shop('롯데리아', '패스트푸드', '서울시 강남구')
 lotteria.show_info()
 ```
@@ -143,15 +143,15 @@ class Shop:
 		self.name = name
 		self.shop_type = shop_type
 		self.address = address
-		
+
 	def show_info():
 		print(f'상점 ({self.name})')
 		print(f'유형: {self.shop_type}')
 		print(f'주소: {address}')
-        
+
     def change_type(self, new_shop_type):
         self.shop_type = new_shop_type
-		
+
 lotteria = Shop('롯데리아', '패스트푸드', '서울시 강남구')
 lotteria.change_type('오락실')
 lotteria.show_info()
@@ -184,17 +184,17 @@ class Shop:
 		self.name = name
 		self.shop_type -> __shop_type = shop_type
 		self.address = address
-		
+
 	def show_info(self):
 		print(
 		f'상점정보 ({self.name})\n'
 		f'유형: {self.shop_type->__shop_type}\n'
 		f'주소: {self.address}'
 		)
-		
+
 	def change_type(self, new_shop_type):
 		self.shop_type->__shop_type = new_shop_type
-        
+
 lotteria.change_type('레스토랑')
 lotteria.show_info()
 
@@ -225,26 +225,26 @@ class Shop:
 		self.name = name
 		self.shop_type = shop_type
 		self.address = address
-		
+
 	def show_info(self):
 		print(
 		f'상점정보 ({self.name})\n'
 		f'유형: {self.shop_type}\n'
 		f'주소: {self.address}'
 		)
-		
+
 	def change_type(self, new_shop_type):
 		self.shop_type = new_shop_type
-		
+
 	@property
     def shop_type(self):
     	return self.__shop_type
-    	
+
     @shop_type.setter
     def shop_type(self, new_shop_type):
     	self.__shop_type = new_shop_type
     	print(f'새 상점 유형 ({new_shop_type)} 적용')
-        
+
 lotteria.shop_type('오락실')
 새 상점 유형 (오락실) 적용
 
@@ -282,7 +282,7 @@ class Restaurant(Shop):
 
 - ```show_info```메서드에서 ```상점```이 아닌 ```식당```으로 표현되도록 메서드를 오버라이드해 새로 정의해본다.
 
-  
+
 
 #### 부모 클래스의 메서드를 호출 (super)
 
@@ -316,13 +316,13 @@ class Pokemon:
 	def __init__(self, name, type):
 		self.name = name
 		self.type = type
-		
+
 	@staticmethod
 	def electric():
 		pokemons = ('피카츄', '라이츄', '붐볼')
 		selected_pokemon = random.choice(pokemons)
 		return Pokemon(selected_pokemon, '전기')
-		
+
 	@staticmethod
 	def water():
 		pokemons = ('꼬부기', '아쿠스타', '라프라스')
@@ -355,14 +355,14 @@ class Pokemon:
   	description = 'Shop class'
   	def __init__(self, name):
   		self.name = name
-  	
-  	
+
+
   	@classmethod
   	def change_description(cls, desc):
   		cls.description = desc
   ```
 
-  
+
 
 
 
@@ -384,7 +384,7 @@ class Pokemon:
 
 - <https://en.wikipedia.org/wiki/Late_binding>
 
-  
+
 
 ```
 User, Sword, Shield클래스를 정의하고 속성을 동적으로 접근해본다.
@@ -399,7 +399,7 @@ User:
 	equip(item)
 		item의 'use()'메서드를 사용
 		이때 자기자신(인스턴스)를 전달
-	
+
 Sword, Shield:
 	- methods
 	use(user)
@@ -420,38 +420,35 @@ Sword, Shield:
           self.name = name
           self.money = 0
           self.happy = 0
-          
+
       def earn(self, item):
           item.sw(self)
-          
+
       def __repr__(self):
           return f'{self.name} (money: {self.money}만큼 벌었다!, happy: {self.happy}만큼 증가했다!)'
-          
+
   class Money:
       def sw(self, sw):
           sw.money += 10
-          
+
   class Happy:
       def sw(self, sw):
           sw.happy += 10
-          
+
   me = Sw('권순우')
   money1 = Money()
   happy1 = Happy()
-  
+
   me.earn(money1)
   me.earn(happy1)
   me
-  
+
   #예상 출력 결과
   권순우 (money: 10만큼 벌었다!, happy: 10만큼 증가했다!)
   ```
 
-  
+
 
 2. 외부에서 조작하면 문제가 생길 수 있는 속성을 `private`하게 지정되도록 이름을 바꾸고, `property`를 만들어 본다. `setter`가 필요없는 속성은 읽기전용으로 남겨두며, 변경해야 하는 속성은 `setter`를 구현하고 제한조건을 만든다
 
 - ex) 음식을 먹고 포만감을 늘리는 메서드 -> 포만감이 100이상이면 먹지 않도록  
-
-
-

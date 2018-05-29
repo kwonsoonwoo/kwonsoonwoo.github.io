@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 예외처리
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 

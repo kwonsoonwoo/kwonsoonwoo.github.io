@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 시퀀스
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 
@@ -160,7 +160,7 @@ True
 ```python
 >>> empty_tuple = ()
 
->>> colors = 'red', 
+>>> colors = 'red',
 >>> fruits = 'apple', 'banana'
 ```
 

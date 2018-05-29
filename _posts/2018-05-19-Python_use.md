@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 용어정리 및 숫자와 문자열
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 
@@ -85,9 +85,9 @@ excerpt_separator:  <!--more-->
 
 ``` python
 >>> '''소환사 여러분.
-... 
+...
 ... 7.1 패치를 소개합니다.
-... 
+...
 ... 앞으로 있을 여러 번의 패치에 대해서는 차차...
 ... 하지만 그렇다고 이번 패치가 하향....
 ... 정의의 전장에서 승리를 기원합니다.'''

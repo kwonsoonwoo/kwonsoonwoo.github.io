@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 제어문
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 
@@ -24,7 +24,7 @@ if 조건1:
 	조건1이 참일 경우
 else:
 	조건1이 거짓일 경우
-	
+
 	if 조건2:
 		조건1은 거짓이나, 조건2는 참일 경우
 	else:
@@ -80,7 +80,7 @@ iterable한 객체에는 문자열, 튜플, 딕셔너리, 셋 등이 있다.
 >>> champion_list = ['lux', 'ahri', 'ezreal', 'zed']
 >>> for champion in champion_list:
 ...   print(champion)
-... 
+...
 lux
 ahri
 ezreal
@@ -124,7 +124,7 @@ for문으로 데이터를 순회하던 중, break문이 호출되지 않고 반�
 for 항목 in iterable객체:
   pass
 else:
-  break가 한 번도 호출되지 않았을 경우의 코드	
+  break가 한 번도 호출되지 않았을 경우의 코드
 ```
 
 **여러 시퀀스 동시순회 (zip)**
@@ -134,7 +134,7 @@ else:
 >>> colors = ['red', 'yellow', 'green', 'purple']
 >>> for fruit, color in zip(fruits, colors):
 ...   print('fruit:', fruit, ' color:', color)
-... 
+...
 fruit: apple  color: red
 fruit: banana  color: yellow
 fruit: melon  color: green
@@ -156,7 +156,7 @@ dict()함수를 사용할 경우 딕셔너리 객체가 만들어지게 된다.
 
 **숫자 시퀀스 생성 (range)**
 
-range()함수는 특정 범위의 숫자 스트림 데이터를 반환한다. 
+range()함수는 특정 범위의 숫자 스트림 데이터를 반환한다.
 
 ```python
 range(start, stop, step)
@@ -167,7 +167,7 @@ zip과 마찬가지로, iterable한 객체를 반환하며, 따라서 for문을 
 ```python
 >>> for x in range(0, 10):
 ...   print(x)
-... 
+...
 0
 1
 2
@@ -197,7 +197,7 @@ while 조건:
 >>> while count < 10:
 ...   print(count)
 ...   count += 1
-... 
+...
 0
 1
 2
@@ -232,7 +232,7 @@ iterable한 객체로부터 파이썬의 자료구조를 만드는 방법. 가�
 >>> numbers = []
 >>> for item in range(1, 6):
 ...   numbers.append(item)
-... 
+...
 >>> numbers
 [1, 2, 3, 4, 5]
 ```
@@ -243,8 +243,3 @@ iterable한 객체로부터 파이썬의 자료구조를 만드는 방법. 가�
 >>> [item for item in range(1, 6)]
 [1, 2, 3, 4, 5]
 ```
-
-
-
-
-

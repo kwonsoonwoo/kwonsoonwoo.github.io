@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 변수와 숫자
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 
@@ -64,4 +64,3 @@ excerpt_separator:  <!--more-->
 >>> int('35')
 35
 ```
-

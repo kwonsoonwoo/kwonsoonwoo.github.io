@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 함수
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 ## 함수
@@ -66,7 +66,7 @@ ABC
 # 함수 정의때는 매개변수
 def func(매개변수1, 매개변수2):
   ...
-  
+
 # 함수 호출시에는 인자
 >>> func(인자1, 인자2)
 ```
@@ -231,7 +231,7 @@ champion = 'Lux'
 
 def show_global_champion():
 	print('show_global_champion : {}'.format(champion))
-	
+
 show_global_champion()
 print('print champion : {}'.format(champion))
 ```
@@ -243,12 +243,12 @@ champion = 'Lux'
 
 def show_global_champion():
 	print('show_global_champion : {}'.format(champion))
-	
+
 def change_global_champion():
 	print('before change_global_champion : {}'.format(champion))
 	champion = 'Ahri'
 	print('after change_global_champion : {}'.format(champion))
-	
+
 show_global_champion()
 change_global_champion()
 ```
@@ -289,7 +289,7 @@ champion = 'Lux'
 def change_global_champion():
 	champion = 'Ahri'
 	print('after change_global_champion : {}'.format(champion))
-	
+
 change_global_champion()
 print('print global champion : {}'.format(champion))
 ```
@@ -307,7 +307,7 @@ def change_global_champion():
 	global champion
 	champion = 'Ahri'
 	print('after change_global_champion : {}'.format(champion))
-	
+
 change_global_champion()
 print('print global champion : {}'.format(champion))
 ```
@@ -324,12 +324,12 @@ champion = 'Lux'
 def local1():
 	champion = 'Ahri'
 	print('local1 locals(): {}'.format(locals()))
-	
+
 	def local2():
 		champion = 'Ezreal'
 		print('local2 locals() : {}'.format(locals()))
 	local2()
-	
+
 print('global locals() : {}'.format(locals()))
 local1()
 ```
@@ -346,14 +346,14 @@ champion = 'Lux'
 def local1():
 	champion = 'Ahri'
 	print('local1 locals() : {}'.format(locals()))
-	
+
 	def local2():
 		nonlocal champion
 		champion = 'Ezreal'
 		print('local2 locals() : {}'.format(locals()))
 	local2()
 	print('local1 locals() : {}'.format(locals()))
-	
+
 print('global locals() : {}'.format(locals()))
 local1()
 ```
@@ -367,7 +367,7 @@ global_level = 100
 def level_add(value):
 	value += 30
 	print(value)
-	
+
 level_add(global_level)
 print(global_level)
 ```
@@ -380,7 +380,7 @@ def level_add():
 	global global_level
 	global_level += 30
 	print(global_level)
-	
+
 level_add()
 print(global_level)
 ```
@@ -448,7 +448,7 @@ import module_a
 level = 50
 def print_level():
 	print(level)
-	
+
 module_a.print_level()
 print_level()
 ```
@@ -584,10 +584,3 @@ Traceback (most recent call last):
 ## 실습
 
 1. 매개변수로 문자열을 받고, 해당 문자열이 ```red```면 ```apple```을, ```yellow```면 ```banana```를, ```green```이면 ```melon``` 을, 어떤 경우도 아닐 경우 ```I don't know```를 리턴하는 함수를 정의하고, 사용하여 ```result```변수에 결과를 할당하고 ```print```해본다.
-
-
-
-
-
-
-

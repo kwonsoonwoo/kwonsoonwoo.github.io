@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Python 딕셔너리, 셋
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 
@@ -25,7 +25,7 @@ Key-Value형태로 항목을 가지는 자료구조.
 
 **형변환**
 
-**dict** 함수를 사용, 두 값의 시퀀스(리스트 또는 튜플)을 딕셔너리로 변환 한다. 
+**dict** 함수를 사용, 두 값의 시퀀스(리스트 또는 튜플)을 딕셔너리로 변환 한다.
 
 ```python
 >>> sample = [[1,2], [3,4], [5,6]]
@@ -151,7 +151,7 @@ True/False를 반환한다.
 
 ## 실습
 
-- `apple`은 `사과`, `banana`는 `바나나`, `cherry`는 `체리`의 key-value를 갖는 `fruits`라는 이름의 사전을 만든다. 
+- `apple`은 `사과`, `banana`는 `바나나`, `cherry`는 `체리`의 key-value를 갖는 `fruits`라는 이름의 사전을 만든다.
 
 - `fruits`를 `Set`으로 만들어 `fruits_set`변수에 할당한다.
 
@@ -173,7 +173,4 @@ True/False를 반환한다.
 
   - x,y,z의 교집합에 해당하는 숫자는?
   - y,z의 교집합이며 x에는 속하지 않는 숫자는?
-  - x에만 속하고 y,z에는 속하지 않는 숫자는? 
-
-   
-
+  - x에만 속하고 y,z에는 속하지 않는 숫자는?

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 클래스 실습
-excerpt_separator:  <!--more-->
+category: Python
 ---
 
 
@@ -19,14 +19,14 @@ excerpt_separator:  <!--more-->
             remove_book
         property
             info: 가지고 있는 도서 목록을 보기좋은 텍스트로 출력 (빌려간 도서는 출력 안해도 됨)
-    
+
     Book
         attrs
             title: 제목
             location: 현재 자신이 어떤 Library 또는 User에게 있는지를 출력
         property
             is_borrowed: 대출되었는지 (location이 User인지 Library인지 확인)
-    
+
     User
         attrs
             name: 이름
@@ -37,4 +37,3 @@ excerpt_separator:  <!--more-->
 
 
 > [코드](https://github.com/KwonSoonWoo/python/blob/master/2018-05-26~27.%20%EC%88%99%EC%A0%9C.ipynb)
-
