@@ -27,11 +27,13 @@ if __name__=='__main__'
 
 
 
-아래 예제 코드와 결과를 보면 이해하기 쉽다.(참고: <http://ibiblio.org/g2swap/byteofpython/read/module-name.html>)
+아래 예제 코드와 결과를 보면 이해하기 쉽다.
+
+(참고: <http://ibiblio.org/g2swap/byteofpython/read/module-name.html>)
 
 
 
-**<code>**
+**CODE**
 
 ```python
 #!/usr/bin/python
@@ -45,7 +47,7 @@ else:
 
 
 
-**<output>**
+**OUTPUT**
 
 ```python
 $ python using_name.py 
