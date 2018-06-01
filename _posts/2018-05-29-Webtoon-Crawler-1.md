@@ -92,7 +92,7 @@ else:
 ```python
 # BeautifulSoup클래스형 객체 생성 및 soup변수에 할당
 ## soup변수->soup
-## 할당 -> "=" 
+## 할당 -> "="
 ## BeautifulSoup(html, 'lxml') -> BeautifulSoup클래스형 객체 생성
 soup = BeautifulSoup(html, 'lxml')
 
@@ -163,7 +163,7 @@ for index, tr in enumerate(tr_list[1:]):
     ## 지금은 제외하는 경우를 첫번째에 처리함.
 	if tr.get('class'):
 		continue
-		
+
 	# 현재 tr의 첫 번째 td요소의 하위 img태그의 'src'속성값
     ## tr이 가지고 있는 td가 가지고 있는 nth-of-type의 첫번째거가 가지고 있는 img태그의 src속성
 	url_thumbnail = tr.select_one('td:nth-of-type(1) img').get('src')
@@ -178,7 +178,7 @@ for index, tr in enumerate(tr_list[1:]):
 	# 현재 tr의 네 번째 td요소의 내용
 	created_date = tr.select_one('td:nth-of-type(4)').get_text(strip=True)
     ### url_detail을 먼저 할당
-    ### parse.urlsplit(url_detail) -> SplitResult 목록 출력 
+    ### parse.urlsplit(url_detail) -> SplitResult 목록 출력
     ### .query -> 그 중 query 속성출력
 	query_string = parse.urlsplit(url_detail).query
     ### query_string을 파싱해줘 -> 딕셔너리 형태로 출력됨
@@ -186,7 +186,7 @@ for index, tr in enumerate(tr_list[1:]):
     ### 단순 query_dict['no']로 하면 딕셔너리 형태로 출력됨
     ### 따라서 [0]을 통해 딕셔너리 형태를 없애주기 위해 0번째 값을 꺼내줌.
 	no = query_dict['no'][0]
-	
+
 	print(url_thumbnail)
 	print(title)
 	print(rating)
@@ -196,7 +196,7 @@ for index, tr in enumerate(tr_list[1:]):
 
 > [url을 주소 + params 형태로 만드는법](https://stackoverflow.com/questions/21584545/url-query-parameters-to-dict-python)
 >
-> 
+>
 
 
 
@@ -209,6 +209,3 @@ for index, tr in enumerate(tr_list[1:]):
 **타이핑을 입력하다가 오타가 날수 있으니 되도록 이면 자동완성 기능 사용할것.**
 
 **한번에 코드를 짤순 없다! 그러니까 print를 자주 써서 제대로 내용을 작성하는지 수시로 확인할것.**
-
-
-
