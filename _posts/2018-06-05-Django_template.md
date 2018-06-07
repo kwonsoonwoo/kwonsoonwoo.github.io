@@ -60,9 +60,6 @@ MVC 와 MTV 모델은 정확히 일치하지만 View가 다른 역할을 한다�
 - **template 확장기능**
   - **같이 사용하지 않는 부분만 block처럼 만드는것. **
 
----
-
-
 
 ```
 1. html 들의 공통된 내용만 base.html 에 남겨놓음.
@@ -73,8 +70,9 @@ MVC 와 MTV 모델은 정확히 일치하지만 View가 다른 역할을 한다�
 {% endblock %}
 ```
 
-
 추상화 : 내부적인 동작이 감춰진것.
+
+
 
 
 
@@ -97,7 +95,7 @@ CSRF
 
 
 은행 피싱사이트 (bbank.com)
-    송금하기 
+    송금하기
         form POST method -> (bank.com)
             금액    //999999999999
             상대계좌 //hacker
@@ -112,12 +110,9 @@ request -> (middleware) -> view -> response
 ```
 
 > CSRF 관련문서
-> https://ko.wikipedia.org/wiki/사이트 간 요청 위조
+> https://ko.wikipedia.org/wiki/ 사이트 간 요청 위조
 > https://namu.wiki/w/CSRF
 > https://docs.djangoproject.com/en/2.0/ref/csrf/
 >
 > Django공식문서 - CSRF (How it works)
 > https://docs.djangoproject.com/en/2.0/ref/csrf/#how-it-works
-
-
-
