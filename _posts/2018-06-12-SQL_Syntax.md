@@ -6,11 +6,23 @@ category: SQL
 
 
 
-**[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.**
+####[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
+
+####기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
+
+####결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
+
+
+
+
 
 
 
 ## Database Tables
+
+---
+
+
 
 데이터베이스는 대개 하나 이상의 테이블을 포함합니다. 각 표는 이름 (예 : '고객'또는 '주문')으로 식별됩니다. 테이블은 데이터가 있는 레코드 (행)를 포함합니다.
 
@@ -36,13 +48,19 @@ category: SQL
 
 
 
+
+
 ## SQL Statements
+
+---
+
+
 
 데이터베이스에서 실행해야하는 대부분의 조치는 SQL 문으로 수행됩니다.
 
 다음 SQL 문은 "Customers"테이블의 모든 레코드를 선택합니다.
 
-**Example**
+###Example
 
 ```sql
 SELECT * FROM Customers;
@@ -56,9 +74,13 @@ SELECT * FROM Customers;
 
 
 
+
+
 ## Keep in Mind That...
 
- 
+---
+
+
 
 - SQL 키워드는 대소문자를 구분하지 않습니다.  select는 SELECT와 같습니다.
 - 이 튜토리얼에서는 모든 SQL 키워드를 대문자로 작성합니다.
@@ -67,7 +89,13 @@ SELECT * FROM Customers;
 
 
 
+
+
 ## Semicolon after SQL Statements?
+
+---
+
+
 
 일부 데이터베이스 시스템에서는 각 SQL 문의 끝에 세미콜론이 필요합니다.
 
@@ -79,9 +107,13 @@ SELECT * FROM Customers;
 
 
 
+
+
 ## Some of The Most Important SQL Commands
 
- 
+---
+
+
 
 - SELECT - 데이터베이스에서 데이터를 추출합니다.
 - UPDATE - 데이터베이스의 데이터를 업데이트합니다.
