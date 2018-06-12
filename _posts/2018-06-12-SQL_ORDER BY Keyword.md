@@ -6,11 +6,11 @@ category: SQL
 
 
 
-####[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
+[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
-####기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
+기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
 
-####결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
+결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
 
 
 
@@ -232,6 +232,3 @@ Number of Records: 91
 | 76         | Suprêmes délices           | Pascale Cartrain | Boulevard Tirou, 255                | Charleroi    | B-6000     | Belgium   |
 | 50         | Maison Dewey               | Catherine Dewey  | Rue Joseph-Bens 532                 | Bruxelles    | B-1180     | Belgium   |
 | 88         | Wellington Importadora     | Paula Parente    | Rua do Mercado, 12                  | Resende      | 08737-363  | Brazil    |
-
-
-

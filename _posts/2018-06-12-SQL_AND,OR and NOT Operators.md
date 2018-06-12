@@ -6,11 +6,11 @@ category: SQL
 
 
 
-####[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
+[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
-####기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
+기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
 
-####결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
+결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
 
 
 
@@ -277,4 +277,3 @@ Number of Records: 67
 | 7          | Blondel père et fils               | Frédérique Citeaux | 24, place Kléber              | Strasbourg  | 67000      | France  |
 | 8          | Bólido Comidas preparadas          | Martín Sommer      | C/ Araquil, 67                | Madrid      | 28023      | Spain   |
 | 9          | Bon app'                           | Laurence Lebihans  | 12, rue des Bouchers          | Marseille   | 13008      | France  |
-

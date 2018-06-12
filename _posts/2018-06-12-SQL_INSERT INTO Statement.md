@@ -6,11 +6,11 @@ category: SQL
 
 
 
-####[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
+[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
-####기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
+기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
 
-####결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
+결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
 
 
 
@@ -171,8 +171,3 @@ You have made changes to the database. Rows affected: 1
 | 90         | Wilman Kala          | Matti Karttunen | Keskuskatu 45               | Helsinki  | 21240      | Finland |
 | 91         | Wolski               | Zbyszek         | ul. Filtrowa 68             | Walla     | 01-012     | Poland  |
 | 92         | Cardinal             | null            | null                        | Stavanger | null       | Norway  |
-
-
-
-
-

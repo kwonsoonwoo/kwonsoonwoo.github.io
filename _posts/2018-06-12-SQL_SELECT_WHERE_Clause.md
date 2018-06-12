@@ -6,11 +6,11 @@ category: SQL
 
 
 
-####[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
+[w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
-####기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
+기본적으로 실행문의 결과값은 사이트에 직접가서 실행해보고 결과를 확인하는것이 좋습니다.
 
-####결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
+결과값이 너무 큰 경우 일부만 발췌하거나 기록하지 않았습니다.
 
 
 
@@ -168,4 +168,3 @@ Number of Records: 1
 | BETWEEN  | Between an inclusive range(포괄적 범위)                      |
 | LIKE     | Search for a pattern(패턴 검색)                              |
 | IN       | To specify multiple possible values for a column(열에 가능한 여러 값을 지정하려면) |
-
