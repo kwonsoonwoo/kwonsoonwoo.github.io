@@ -19,24 +19,24 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
   ```python
   def detail(request, question_id):
       return HttpResponse("You're looking at question %s." % question_id)
-  
-  
+
+
   def results(request, quetion_id):
       response = "You're looking at the results of question %s."
       return HttpResponse(response % quetion_id)
-  
+
   def vote(request, question_id):
       return HttpResponse("You're voting on question %s." % question_id)
-  
+
   ```
 
 - polls/urls.py
 
   ```python
   from django.urls import path
-  
+
   from polls import views
-  
+
   urlpatterns = [
       # path(아무것도 없는 문자열이 오면, views의 index가 실행
       #    view.index를 실행하려면 config의 urls.py에 패턴추가
@@ -69,11 +69,11 @@ from .models import Question
 def index(request):
 	# DB에 있는 Question중, 가장 최근에 발행(pub_date)된 순서대로 최대 5개에 해당하는 			# QuerySet을 latest_question_list변수에 할당
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
-    
+
 	# latest_question_list의 각 Question의 question_text들을 ', '로 연결시킨
     # 문자열을 output변수에 할당
 	output = ', '.join([q.question_text for q in latest_question_list])
-    
+
 	# 만들어진 질문 제목들을 모은 문자열을 HttpResponse클래스의 생성자로 전달, 인스턴스를 리턴
 	return HttpResponse(output)
 ```
@@ -88,18 +88,18 @@ def index(request):
   # create를 써서 만들었기 때문에 save()를 하지 않아도 됨.
   # 그냥 인스턴스를 만들었으면 메모리에만 존재하니까 save를 호출해야 되지만
   # create는 DB에 들어가는거까지 한번에 됨.
-  
+
   In [35]: Question.objects.create(question_text='가장 좋아하는 게임은?', pub_date
       ...: =timezone.now())
   Out[35]: <Question: 가장 좋아하는 게임은?>
-  
+
   In [36]: Question.objects.create(question_text='가장 좋아하는 걸스데이 멤버는?',
       ...:  pub_date=timezone.now())
   Out[36]: <Question: 가장 좋아하는 걸스데이 멤버는?>
-  
+
   ```
 
-  
+
 
 ---
 
@@ -146,7 +146,7 @@ def index(request):
 
 - 실제 동작하는 애플리케이션 패키지 안에 template 폴더를 만들었기 때문에
 
-- 자동으로 templates 폴더까진 찾아줌. 그 이후엔 경로 설정을 해줘야 함 
+- 자동으로 templates 폴더까진 찾아줌. 그 이후엔 경로 설정을 해줘야 함
 
   - ex ) 'polls/index.html'
 
@@ -162,7 +162,7 @@ def index(request):
         'latest_question_list': latest_question_list,
     }
     # Django의 TEMPLATES설정에 정의된 방법으로,
-    # 주어진 인자('polls/index.html')에 해당하는 템플릿 파일을 가지는 Template인스턴스를 
+    # 주어진 인자('polls/index.html')에 해당하는 템플릿 파일을 가지는 Template인스턴스를
     # 생성, 리턴
     template = loader.get_template('polls/index.html')
 
@@ -172,7 +172,7 @@ def index(request):
 
     # 결과 HTML문자열을 사용해 생성한 HttpResponse객체를 리턴
     return HttpResponse(html)
-    
+
     # return render(request, 'polls/index.html', context)
 ```
 
@@ -182,7 +182,7 @@ def index(request):
 
 
 
-####4. 404 에러 일으키기 
+####4. 404 에러 일으키기
 
 - polls/views.py에 detail 함수 수정
 
@@ -232,7 +232,7 @@ def detail(request, question_id):
     question = get_object_or_404(Question, id=question_id)
     ```
 
-    
+
 
 - http://localhost:8000/polls/100/ 입력시 Page not found (404)로 바뀜.
 
@@ -262,7 +262,7 @@ ALLOWED_HOSTS = [
 ## 파이썬에서 동적으로 함수콜을 하고 싶다 하면 이런 방식을 할수 있다. 기억할것.
 def custom_get_object_or_404(model, **kwargs):
     # 1번째 인자로 특정 Model Class를 받음
-    # 최소 1개 이상의 키워드인자를 받아서, 받은 인자들을 사용해 주어진 
+    # 최소 1개 이상의 키워드인자를 받아서, 받은 인자들을 사용해 주어진
     # Model Class의 get()메서드를 실행
     #   존재하면 해당 인스턴스를 리턴
     #   없으면 raise Http404를 실행 (메시지는 임의로 지정)
@@ -285,7 +285,7 @@ def custom_get_object_or_404(model, **kwargs):
   ```django
   {% raw %}
   <h1>{{ question.question_text }}</h1>
-  
+
   <ul>
       <!-- question이 갖고 있는 choice목록을 순회 -->
       {% for choice in question.choice_set.all %}
@@ -296,7 +296,7 @@ def custom_get_object_or_404(model, **kwargs):
   {% endraw %}
   ```
 
-  
+
 
 ---
 
@@ -320,7 +320,7 @@ $ python manage.py startapp blog
 
   ```python
   from django.http import HttpResponse
-  
+
   def index(request):
       return HttpResponse('Blog index')
   ```
@@ -335,9 +335,9 @@ $ python manage.py startapp blog
 
   ```python
   from django.urls import path
-  
+
   from blog import views
-  
+
   urlpatterns = [
       path('', views.index, name='index')
   ]
@@ -355,7 +355,7 @@ $ python manage.py startapp common
 
   ```python
   from django.shortcuts import render
-  
+
   def index(request):
   	return render(request, 'common/index.html')
   ```
@@ -388,7 +388,7 @@ $ python manage.py startapp common
       'django.contrib.sessions',
       'django.contrib.messages',
       'django.contrib.staticfiles',
-  
+
       # pip install django_extensions
       'django_extensions',
   ]
@@ -400,7 +400,7 @@ $ python manage.py startapp common
   from django.contrib import admin
   from django.urls import path, include
   from common.views import index <- 추가
-  
+
   urlpatterns = [
       path('admin/', admin.site.urls),
       # 경로(url 끝에 polls입력하면, polls 폴더의 urls.py를 include한다.)
@@ -417,10 +417,12 @@ $ python manage.py startapp common
 - 하지만 하드코딩 형태이기 때문에 url형태로 바꿔줄 필요가 있음.
 
   ```python
-  <a href="/blog/">Blog index</a><br> 
+  {% raw %}
+  <a href="/blog/">Blog index</a><br>
   -> <a href="{% url 'index' %}">Blog index</a><br>
-  <a href="/polls/">Polls index</a> 
+  <a href="/polls/">Polls index</a>
   -> <a href="{% url 'index' %}">Polls index</a>
+  {% endraw %}
   ```
 
 - 문제는 blog.url이나 polls.url이나 index 이름이 같아서 저렇게 연결하면 blog걸로만 인식이 됨.
@@ -433,19 +435,19 @@ $ python manage.py startapp common
 
   ```python
   from django.urls import path
-  
+
   from blog import views
-  
+
   app_name = 'blog'	<- 추가
   urlpatterns = [
       path('', views.index, name='index')
   ]
-  
-  
+
+
   from django.contrib import admin
   from django.urls import path, include
   from common.views import index
-  
+
   app_name = 'polls'	<- 추가
   urlpatterns = [
       path('admin/', admin.site.urls),
@@ -473,5 +475,3 @@ $ python manage.py startapp common
   {% endif %}
   {% endraw %}
   ```
-
-  
