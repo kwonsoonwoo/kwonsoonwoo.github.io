@@ -17,6 +17,7 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
 - polls/templates/polls/detail.html
 
   ```django
+  {% raw %}
   <h1>{{ question.question_text }}</h1>
   
   {% if error_message %}
@@ -45,7 +46,7 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
       <button type="submit">Vote</button>
   </form>
   {% endif %}
-  
+  {% endraw %}
   ```
 
 - admin페이지로 가서 choice를 더 만들기
@@ -63,7 +64,9 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
 - detail.html 내용 추가
 
   ```django
+  {% raw %}
   <form action="{% url 'polls:vote' question_id=question.id %}">
+  {% endraw %}
   ```
 
 - polls/views.py 수정

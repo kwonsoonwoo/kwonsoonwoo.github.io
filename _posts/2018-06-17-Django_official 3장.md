@@ -111,6 +111,7 @@ def index(request):
   - polls -> templates(directory) -> index.html(file)
 
 ```django
+{% raw %}
 {% if latest_question_list %}
 <ul>
     {% for question in latest_question_list %}
@@ -122,6 +123,7 @@ def index(request):
 {% else %}
 <p>No polls are available</p>
 {% endif %}
+{% endraw %}
 ```
 
 
@@ -281,6 +283,7 @@ def custom_get_object_or_404(model, **kwargs):
 - polls/templates/polls/detail.html
 
   ```django
+  {% raw %}
   <h1>{{ question.question_text }}</h1>
   
   <ul>
@@ -290,6 +293,7 @@ def custom_get_object_or_404(model, **kwargs):
       <li>{{ choice.choice_text }}</li>
       {% endfor %}
   </ul>
+  {% endraw %}
   ```
 
   
@@ -455,6 +459,7 @@ $ python manage.py startapp common
 - 이후 polls/templates/polls/index.html에서 app_name 수정
 
   ```django
+  {% raw %}
   {% if latest_question_list %}
   <ul>
       {% for question in latest_question_list %}
@@ -466,6 +471,7 @@ $ python manage.py startapp common
   {% else %}
   <p>No polls are available</p>
   {% endif %}
+  {% endraw %}
   ```
 
   
