@@ -19,6 +19,7 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
   ```python
   def detail(request, question_id):
       return HttpResponse("You're looking at question %s." % question_id)
+  ```
 
 
   def results(request, quetion_id):
@@ -56,7 +57,7 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
 
 
 
-####2. view가 뭔가 하게 만들기
+#### 2. view가 뭔가 하게 만들기
 
 - polls/views.py
 
@@ -435,13 +436,14 @@ $ python manage.py startapp common
 
   ```python
   from django.urls import path
-
+  
   from blog import views
-
+  
   app_name = 'blog'	<- 추가
   urlpatterns = [
       path('', views.index, name='index')
   ]
+  ```
 
 
   from django.contrib import admin

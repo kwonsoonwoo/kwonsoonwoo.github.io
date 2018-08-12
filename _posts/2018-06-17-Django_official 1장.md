@@ -20,7 +20,7 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
 
 
 
-####2. starapp polls 실행하여 폴더 생성
+#### 2. starapp polls 실행하여 폴더 생성
 
 - manage.py있는 폴더로 가서 python.manage.py startapp polls 실행
 
@@ -42,7 +42,7 @@ def index(request):
 
 
 
-####4. urls.py 만들기 
+#### 4. urls.py 만들기 
 
 ```django
 from django.urls import path
