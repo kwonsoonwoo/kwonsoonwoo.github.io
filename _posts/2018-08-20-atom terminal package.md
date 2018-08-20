@@ -12,7 +12,7 @@ category: ETC
 
 
 
-**1.Settings 들어가기(Command+,)**
+**1.Settings 들어가기(Ctrl+,(comma))**
 
 ![atom package](/assets/atom package/1.settings.png)
 
