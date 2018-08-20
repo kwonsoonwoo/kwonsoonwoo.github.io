@@ -22,7 +22,7 @@ sidebar_link: true
 
 #### 경력
 
-* 2018.05 ~ - Fastcampus Web Programming School 8기
+* 2018.05 ~ 2018.08- Fastcampus Web Programming School 8기
 
 ---
 
@@ -37,4 +37,3 @@ sidebar_link: true
 #### ETC
 
 ---
-
