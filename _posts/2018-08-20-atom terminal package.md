@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: atom 터미널 패키지 설치
 category: ETC
 ---
