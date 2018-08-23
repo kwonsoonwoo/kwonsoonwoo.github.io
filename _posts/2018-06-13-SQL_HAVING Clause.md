@@ -2,6 +2,8 @@
 layout: post
 title: SQL HAVING Clause
 category: SQL
+tags:
+  - SQL
 ---
 
 

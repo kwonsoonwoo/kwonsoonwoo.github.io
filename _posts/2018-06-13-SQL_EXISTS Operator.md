@@ -2,6 +2,8 @@
 layout: post
 title: SQL EXISTS Operator
 category: SQL
+tags:
+  - SQL
 ---
 
 

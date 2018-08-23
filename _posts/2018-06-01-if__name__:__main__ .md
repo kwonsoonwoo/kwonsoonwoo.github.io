@@ -2,6 +2,8 @@
 layout: post
 title: if __name__=='__main__'
 category: Python
+tags:
+  - Python
 ---
 
 

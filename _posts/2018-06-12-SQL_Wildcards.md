@@ -2,6 +2,8 @@
 layout: post
 title: SQL Wildcards
 category: SQL
+tags:
+  - SQL
 ---
 
 

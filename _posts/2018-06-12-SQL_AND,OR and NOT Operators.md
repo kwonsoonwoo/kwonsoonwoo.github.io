@@ -2,6 +2,8 @@
 layout: post
 title: SQL AND, OR and NOT Operators
 category: SQL
+tags:
+  - SQL
 ---
 
 

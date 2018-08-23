@@ -2,6 +2,8 @@
 layout: post
 title: SQL UNION Operator
 category: SQL
+tags:
+  - SQL
 ---
 
 

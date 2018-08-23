@@ -2,6 +2,8 @@
 layout: post
 title: SQL COUNT(), AVG() and SUM() Functions
 category: SQL
+tags:
+  - SQL
 ---
 
 

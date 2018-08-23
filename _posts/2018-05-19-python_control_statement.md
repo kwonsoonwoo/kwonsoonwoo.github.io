@@ -2,6 +2,8 @@
 layout: post
 title: Python 제어문
 category: Python
+tags:
+  - Python
 ---
 
 

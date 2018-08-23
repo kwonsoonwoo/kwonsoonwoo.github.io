@@ -2,6 +2,8 @@
 layout: post
 title: SQL UNIQUE Constraint
 category: SQL
+tags:
+  - SQL
 ---
 
 

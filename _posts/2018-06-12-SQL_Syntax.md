@@ -2,6 +2,8 @@
 layout: post
 title: SQL Syntax
 category: SQL
+tags:
+  - SQL
 ---
 
 

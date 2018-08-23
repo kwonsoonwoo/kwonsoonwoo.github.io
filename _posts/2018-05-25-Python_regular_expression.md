@@ -2,6 +2,9 @@
 layout: post
 title: 정규표현식 (Regular Expressions)
 category: Python
+tags:
+  - Python
+  - 정규표현식
 ---
 
 # 정규표현식

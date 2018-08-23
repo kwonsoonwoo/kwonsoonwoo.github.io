@@ -2,6 +2,8 @@
 layout: post
 title: Django HTML 시작하기
 category: Django
+tags:
+  - Django
 ---
 
 

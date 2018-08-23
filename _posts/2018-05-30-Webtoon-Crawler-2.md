@@ -2,6 +2,9 @@
 layout: post
 title: Webtoon Crawler-2
 category: Python
+tags:
+  - Python
+  - Crawler
 ---
 
 
@@ -326,7 +329,6 @@ category: Python
   e1.download_all_images()
   ```
 
-  
 
 **Refactor**(ubuntu pycharm 기준 shift+f6)
 

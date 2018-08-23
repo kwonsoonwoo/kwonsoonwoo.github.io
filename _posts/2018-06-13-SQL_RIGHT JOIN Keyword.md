@@ -2,6 +2,8 @@
 layout: post
 title: SQL RIGHT JOIN Keyword
 category: SQL
+tags:
+  - SQL
 ---
 
 

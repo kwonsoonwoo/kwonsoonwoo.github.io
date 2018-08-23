@@ -2,6 +2,8 @@
 layout: post
 title: SQL Constraints
 category: SQL
+tags:
+  - SQL
 ---
 
 

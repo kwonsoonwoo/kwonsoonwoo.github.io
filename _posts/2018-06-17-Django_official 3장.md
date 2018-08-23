@@ -2,6 +2,8 @@
 layout: post
 title: Django tutorial 3장
 category: Django
+tags:
+  - Django
 ---
 
 
@@ -183,7 +185,7 @@ def index(request):
 
 
 
-####4. 404 에러 일으키기
+#### 4. 404 에러 일으키기
 
 - polls/views.py에 detail 함수 수정
 

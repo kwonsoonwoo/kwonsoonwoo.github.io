@@ -2,6 +2,8 @@
 layout: post
 title: SQL PRIMARY KEY Constraint
 category: SQL
+tags:
+  - SQL
 ---
 
 

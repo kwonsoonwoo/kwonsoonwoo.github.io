@@ -2,6 +2,8 @@
 layout: post
 title: The SQL INSERT INTO Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: SQL CHECK Constraint
 category: SQL
+tags:
+  - SQL
 ---
 
 

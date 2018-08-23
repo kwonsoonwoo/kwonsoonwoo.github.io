@@ -2,6 +2,8 @@
 layout: post
 title: SQL NULL Values
 category: SQL
+tags:
+  - SQL
 ---
 
 

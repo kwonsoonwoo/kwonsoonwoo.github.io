@@ -2,6 +2,8 @@
 layout: post
 title: SQL LEFT JOIN Keyword
 category: SQL
+tags:
+  - SQL
 ---
 
 

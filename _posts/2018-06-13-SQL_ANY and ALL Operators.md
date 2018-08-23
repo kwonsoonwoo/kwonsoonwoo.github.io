@@ -2,6 +2,8 @@
 layout: post
 title: SQL ANY and ALL Operators
 category: SQL
+tags:
+  - SQL
 ---
 
 

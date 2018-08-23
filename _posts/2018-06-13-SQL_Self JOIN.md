@@ -2,6 +2,8 @@
 layout: post
 title: SQL Self JOIN
 category: SQL
+tags:
+  - SQL
 ---
 
 

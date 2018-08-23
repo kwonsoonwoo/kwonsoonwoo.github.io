@@ -2,6 +2,8 @@
 layout: post
 title: SQL SELECT DISTINCT Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

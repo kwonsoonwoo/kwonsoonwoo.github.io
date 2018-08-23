@@ -2,6 +2,8 @@
 layout: post
 title: SQL Working With Dates
 category: SQL
+tags:
+  - SQL
 ---
 
 

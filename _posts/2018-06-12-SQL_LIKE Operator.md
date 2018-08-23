@@ -2,6 +2,8 @@
 layout: post
 title: SQL LIKE Operator
 category: SQL
+tags:
+  - SQL
 ---
 
 

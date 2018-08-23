@@ -2,6 +2,8 @@
 layout: post
 title: 예외처리
 category: Python
+tags:
+  - Python
 ---
 
 

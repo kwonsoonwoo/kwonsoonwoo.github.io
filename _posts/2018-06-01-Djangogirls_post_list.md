@@ -2,6 +2,9 @@
 layout: post
 title: Djangogirls post list기본 구현
 category: Django
+tags:
+  - Django
+  - Djangogirls
 ---
 
 

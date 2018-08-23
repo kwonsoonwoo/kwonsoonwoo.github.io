@@ -2,6 +2,8 @@
 layout: post
 title: SQL ORDER BY Keyword
 category: SQL
+tags:
+  - SQL
 ---
 
 

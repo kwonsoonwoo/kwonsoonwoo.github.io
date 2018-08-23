@@ -2,6 +2,8 @@
 layout: post
 title: 클래스 실습
 category: Python
+tags:
+  - Python
 ---
 
 
@@ -19,14 +21,14 @@ category: Python
             remove_book
         property
             info: 가지고 있는 도서 목록을 보기좋은 텍스트로 출력 (빌려간 도서는 출력 안해도 됨)
-
+    
     Book
         attrs
             title: 제목
             location: 현재 자신이 어떤 Library 또는 User에게 있는지를 출력
         property
             is_borrowed: 대출되었는지 (location이 User인지 Library인지 확인)
-
+    
     User
         attrs
             name: 이름

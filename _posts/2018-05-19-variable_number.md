@@ -2,6 +2,8 @@
 layout: post
 title: 변수와 숫자
 category: Python
+tags:
+  - Python
 ---
 
 

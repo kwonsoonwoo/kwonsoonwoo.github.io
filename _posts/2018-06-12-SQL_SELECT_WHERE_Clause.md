@@ -2,6 +2,8 @@
 layout: post
 title: SQL WHERE Clause
 category: SQL
+tags:
+  - SQL
 ---
 
 

@@ -2,6 +2,9 @@
 layout: post
 title: Djangogirls blog 앱 생성 및 관리자에 추가
 category: Django
+tags:
+  - Django
+  - Djangogirls
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: SQL UPDATE Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

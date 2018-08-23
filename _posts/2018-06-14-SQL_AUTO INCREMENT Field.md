@@ -2,6 +2,8 @@
 layout: post
 title: SQL AUTO INCREMENT Field
 category: SQL
+tags:
+  - SQL
 ---
 
 

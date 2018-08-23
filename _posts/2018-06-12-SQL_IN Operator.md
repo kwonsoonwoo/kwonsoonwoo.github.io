@@ -2,6 +2,8 @@
 layout: post
 title: SQL IN Operator
 category: SQL
+tags:
+  - SQL
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: Django tutorial 1장
 category: Django
+tags:
+  - Django
 ---
 
 

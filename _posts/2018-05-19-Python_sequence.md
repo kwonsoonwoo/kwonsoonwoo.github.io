@@ -2,6 +2,8 @@
 layout: post
 title: Python 시퀀스
 category: Python
+tags:
+  - Python
 ---
 
 

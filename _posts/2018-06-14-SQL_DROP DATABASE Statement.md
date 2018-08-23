@@ -2,6 +2,8 @@
 layout: post
 title: SQL DROP DATABASE Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

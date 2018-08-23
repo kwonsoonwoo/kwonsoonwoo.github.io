@@ -2,6 +2,10 @@
 layout: post
 title: Beautifulsoup
 category: Python
+tags:
+  - Python
+  - Beautifulsoup
+  - Crawler
 ---
 
 

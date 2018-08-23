@@ -2,6 +2,8 @@
 layout: post
 title: SQL ALTER TABLE Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

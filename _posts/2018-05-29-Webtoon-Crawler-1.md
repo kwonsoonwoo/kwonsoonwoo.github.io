@@ -2,6 +2,9 @@
 layout: post
 title: Webtoon Crawler-1
 category: Python
+tags:
+  - Python
+  - Crawler
 ---
 
 

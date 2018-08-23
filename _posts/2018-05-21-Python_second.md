@@ -2,6 +2,8 @@
 layout: post
 title: 함수
 category: Python
+tags:
+  - Python
 ---
 
 ## 함수

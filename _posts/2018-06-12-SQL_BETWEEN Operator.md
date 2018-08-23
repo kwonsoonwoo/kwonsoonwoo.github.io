@@ -2,6 +2,8 @@
 layout: post
 title: SQL BETWEEN Operator
 category: SQL
+tags:
+  - SQL
 ---
 
 

@@ -1,7 +1,10 @@
 ---
 layout: post
-title: Django 환경설정
+title: Djangogirls 환경설정
 category: Django
+tags:
+  - Django
+  - Djangogirls
 ---
 
 

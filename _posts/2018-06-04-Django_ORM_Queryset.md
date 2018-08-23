@@ -2,6 +2,10 @@
 layout: post
 title: Django ORM과 쿼리셋
 category: Django
+tags:
+  - Django
+  - ORM
+  - Queryset
 ---
 
 

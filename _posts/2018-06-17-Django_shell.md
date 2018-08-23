@@ -2,6 +2,8 @@
 layout: post
 title: Django shell
 category: Django
+tags:
+  - Django
 ---
 
 
@@ -19,8 +21,6 @@ PyCharm안에서 Django의 실행결과를 바로바로 알아볼수 없으니 �
   ```python
   $ pip install notebook
   ```
-
-  
 
 - django_extensions 설치
 
@@ -45,8 +45,6 @@ PyCharm안에서 Django의 실행결과를 바로바로 알아볼수 없으니 �
         'django_extensions',
     ]
     ```
-
-    
 
 - shell_plus 실행
 
@@ -77,7 +75,6 @@ PyCharm안에서 Django의 실행결과를 바로바로 알아볼수 없으니 �
 
   - 그냥 shell을 실행했을때는 django모델들이 자동으로 import가 안되는 차이점이 있음
 
-  
 
 ---
 

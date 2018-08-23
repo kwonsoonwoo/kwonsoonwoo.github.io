@@ -2,6 +2,8 @@
 layout: post
 title: SQL DELETE Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: 함수 실습
 category: Python
+tags:
+  - Python
 ---
 
 
@@ -67,8 +69,6 @@ I don't know
        return fruit_dict.get(color, "I don't know")
    ```
 
-   
-
 3. 한 개 또는 두 개의 숫자 인자를 전달받아, 하나가 오면 제곱, 두개를 받으면 두 수의 곱을 반환해주는 함수를 정의하고 사용해본다.
 
    ```python
@@ -128,8 +128,6 @@ I don't know
        return arg1 ** 2
    ```
 
-   
-
 4. 두 개의 숫자를 인자로 받아 합과 차를 튜플을 이용해 동시에 반환하는 함수를 정의하고 사용해본다.
 
    ```python
@@ -153,8 +151,6 @@ I don't know
    (8, 2)
    ```
 
-   
-
 5. 위치인자 묶음을 매개변수로 가지며, 위치인자가 몇 개 전달되었는지를 print하고 개수를 리턴해주는 함수를 정의하고 사용해본다.
 
    ```python
@@ -169,8 +165,6 @@ I don't know
    >>> print(result)
    5
    ```
-
-   
 
 6. 람다함수와 리스트 컴프리헨션을 사용해 한 줄로 구구단의 결과를 갖는 리스트를 생성해본다.
 

@@ -2,6 +2,8 @@
 layout: post
 title: SQL Comments
 category: SQL
+tags:
+  - SQL
 ---
 
 

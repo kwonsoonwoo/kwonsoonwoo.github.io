@@ -2,6 +2,8 @@
 layout: post
 title: SQL GROUP BY Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

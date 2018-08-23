@@ -2,6 +2,8 @@
 layout: post
 title: SQL MIN() and MAX() Functions
 category: SQL
+tags:
+  - SQL
 ---
 
 

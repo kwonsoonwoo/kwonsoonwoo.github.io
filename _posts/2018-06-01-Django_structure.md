@@ -2,6 +2,8 @@
 layout: post
 title: Django 프로젝트 구조 설정
 category: Django
+tags:
+  - Django
 ---
 
 

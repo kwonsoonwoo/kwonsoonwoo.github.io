@@ -2,6 +2,8 @@
 layout: post
 title: SQL DROP TABLE Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

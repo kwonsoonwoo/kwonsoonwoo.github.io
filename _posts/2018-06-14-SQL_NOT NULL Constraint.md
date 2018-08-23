@@ -2,6 +2,8 @@
 layout: post
 title: SQL NOT NULL Constraint
 category: SQL
+tags:
+  - SQL
 ---
 
 

@@ -2,6 +2,8 @@
 layout: post
 title: Python 딕셔너리, 셋
 category: Python
+tags:
+  - Python
 ---
 
 

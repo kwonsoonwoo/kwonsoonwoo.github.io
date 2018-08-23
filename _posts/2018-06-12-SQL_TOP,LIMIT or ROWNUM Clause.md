@@ -2,6 +2,8 @@
 layout: post
 title: SQL TOP, LIMIT or ROWNUM Clause
 category: SQL
+tags:
+  - SQL
 ---
 
 

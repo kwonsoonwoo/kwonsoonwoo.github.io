@@ -2,6 +2,8 @@
 layout: post
 title: 알고리즘 실습
 category: Algorithm
+tags:
+  - Algorithm
 ---
 
 
@@ -10,11 +12,11 @@ category: Algorithm
 
 - 순차검색(Sequential Search)
 
-  ​	i. 문자열과 키 문자 1개를 받는 함수 구현
+  	i. 문자열과 키 문자 1개를 받는 함수 구현
 
-  ​       ii. while문을 이용, 문자열에서 키 문자가 존재하는 index위치를 검사 후 해당 index를 리턴
+         ii. while문을 이용, 문자열에서 키 문자가 존재하는 index위치를 검사 후 해당 index를 리턴
 
-  ​      iii. 찾지 못했을 경우 -1을 리턴
+        iii. 찾지 못했을 경우 -1을 리턴
 
   ```python
   >>> def sequential_search(string, key):
@@ -66,7 +68,6 @@ category: Algorithm
   -1
   ```
 
-  
 
 
 

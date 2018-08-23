@@ -2,6 +2,8 @@
 layout: post
 title: SQL CREATE INDEX Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

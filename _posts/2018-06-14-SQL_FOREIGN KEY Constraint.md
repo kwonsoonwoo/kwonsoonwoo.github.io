@@ -2,6 +2,8 @@
 layout: post
 title: SQL FOREIGN KEY Constraint
 category: SQL
+tags:
+  - SQL
 ---
 
 

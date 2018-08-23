@@ -2,6 +2,8 @@
 layout: post
 title: Django template 확장 및 CSRF
 category: Django
+tags:
+  - Django
 ---
 
 

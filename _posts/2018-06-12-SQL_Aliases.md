@@ -2,6 +2,8 @@
 layout: post
 title: SQL Aliases
 category: SQL
+tags:
+  - SQL
 ---
 
 

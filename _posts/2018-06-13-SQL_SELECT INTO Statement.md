@@ -2,6 +2,8 @@
 layout: post
 title: SQL SELECT INTO Statement
 category: SQL
+tags:
+  - SQL
 ---
 
 

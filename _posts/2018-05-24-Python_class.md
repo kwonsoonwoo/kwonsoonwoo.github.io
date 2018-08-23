@@ -2,13 +2,16 @@
 layout: post
 title: 클래스 (class)
 category: Python
+tags:
+  - Python
+  - Class
 ---
 
 
 
 # 클래스 (Class)
 
-##객체지향 프로그래밍
+## 객체지향 프로그래밍
 
 파이썬의 모든것은 객체이며, 객체를 사용할 때는 변수에 해당 객체를 참조(`Reference`)시켜 사용한다.
 객체는 변수와 함수를 가지며, 특별히 **객체**가 가진 **변수**와 **함수**는 각각 **속성(attribute)**과 **메서드(method)**라고 부른다.
@@ -355,6 +358,7 @@ class Pokemon:
   	description = 'Shop class'
   	def __init__(self, name):
   		self.name = name
+  ```
 
 
   	@classmethod
@@ -386,7 +390,7 @@ class Pokemon:
 
 
 
-```
+  ```
 User, Sword, Shield클래스를 정의하고 속성을 동적으로 접근해본다.
 
 User:
@@ -445,7 +449,7 @@ Sword, Shield:
 
   #예상 출력 결과
   권순우 (money: 10만큼 벌었다!, happy: 10만큼 증가했다!)
-  ```
+```
 
 
 

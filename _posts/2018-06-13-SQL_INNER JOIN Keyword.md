@@ -2,6 +2,8 @@
 layout: post
 title: SQL INNER JOIN Keyword
 category: SQL
+tags:
+  - SQL
 ---
 
 
