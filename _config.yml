@@ -7,11 +7,11 @@ title:            Ksw
 tagline:          'A Jekyll theme'
 description:      '개알못의 웹개발이야기'
 url:              https://kwonsoonwoo.github.io/
-baseurl:
+baseurl:          ''
 
 author:
-  name:           'Andrew Fong'
-  url:            https://twitter.com/fongandrewc
+  name:           '권순우'
+  # url:            https://twitter.com/fongandrewc
 
 paginate:         5
 # paginate_path:    '/page:num'
@@ -23,14 +23,13 @@ plugins:
   - jekyll-paginate
 
 # Custom vars
-version:            3.6.0
 sidebar_home_link:  true
 # sidebar_blog_link:  '/blog'   # By default, your home page is your blog
                                 # page. If you change your paginate_path,
                                 # set this to the root of the paginate_path
                                 # to enable a separate blog link.
 github:
-  repo:             https://github.com/kwonsoonwoo
+  repo: https://github.com/KwonSoonWoo/kwonsoonwoo.github.io
 
 disqus:
   shortname: ksw-blog
