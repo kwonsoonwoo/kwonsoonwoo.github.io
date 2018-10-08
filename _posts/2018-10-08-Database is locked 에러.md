@@ -25,7 +25,7 @@ makemigrations 성공 후 migrate를 할 때 발생한 에러.
 
 **linux와 macOS의 경우**
 
-```python
+```
 $ fuser <locked된 파일명>
 ex: $ fuser development.db
 ```
