@@ -255,7 +255,7 @@ x                                      20
 
 - change_value() 스택 프레임과 메모리에 있던 20이 사라짐.
   - change_value()안의 변수 x, value가 20을 가리키고 있었으나
-  - 호출과 함께 사라지면서 메모리에 있던 20도 [레퍼런스 카운트]()가 0이 되면서 사라짐.
+  - 호출과 함께 사라지면서 메모리에 있던 20도 [레퍼런스 카운트](https://kwonsoonwoo.github.io/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%ED%95%99/2018/10/14/cs-with-python-%EB%A0%88%ED%8D%BC%EB%9F%B0%EC%8A%A4-%EC%B9%B4%EC%9A%B4%ED%8A%B8.html)가 0이 되면서 사라짐.
 
 
 
