@@ -18,7 +18,7 @@ tags:
 
 ---
 
-[객체지향 방식으로 리팩토링한 코드]()
+[객체지향 방식으로 리팩토링한 코드](https://kwonsoonwoo.github.io/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B3%B5%ED%95%99/2018/10/17/cs-with-python-%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5-%EB%B0%A9%EC%8B%9D-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D,-%EC%BA%90%EC%8B%9C(cache).html)
 
 ---
 
