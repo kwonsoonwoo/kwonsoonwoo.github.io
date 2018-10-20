@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (Cs with python)-클래스(is-a, has-a)
+title: (Cs with python)-클래스(상속, is-a, has-a)
 category: 컴퓨터 공학
 tags:
   - 컴퓨터 공학
@@ -8,6 +8,7 @@ tags:
   - 클래스
   - is-a
   - has-a
+  - 상속
 ---
 
 
