@@ -107,7 +107,7 @@ Migrations for 'blog':
 
 
 
-**git commit 후 master branch로 merge후 blog-model branch제거 **
+**git commit 후 master branch로 merge후 blog-model branch제거**
 
 ```python
 git add -A
