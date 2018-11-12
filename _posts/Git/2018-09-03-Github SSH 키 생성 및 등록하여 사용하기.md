@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Github SSH 키 생성 및 등록하여 사용하기
-category: ETC
+category: Git
 tags:
-  - ETC
-  - Github
-  - Git
+  - git
+  - github
+  - SSH Key
 ---
 
 
@@ -62,7 +62,7 @@ eval $ (ssh-agent -s)
 ssh-add ~/.ssh/id_rsa
 ```
 
-- 다른이름으로 키를 작성하였거나, 다른 이름을 가진 기존 키를 추가하는 경우 
+- 다른이름으로 키를 작성하였거나, 다른 이름을 가진 기존 키를 추가하는 경우
 
   id_rsa의 개인용 키 파일의 이름을 바꿔야 함.
 
@@ -75,8 +75,8 @@ ssh-add ~/.ssh/id_rsa
 
 - 아래 명령어들 중 하나로 id_rsa.pub 파일의 내용을 전부 복사
   - vi ~/.ssh/id_rsa.pub
-  - cat ~/.ssh/id_rsa.pub 
-  - bcopy < ~/.ssh/id_rsa.pub 
+  - cat ~/.ssh/id_rsa.pub
+  - bcopy < ~/.ssh/id_rsa.pub
 - title은 마음대로 작성 -> key에다가는 복사한 내용 붙여넣기 -> Add SSH key
 
 ![ssh-key2](/assets/git/ssh-key2.png)
@@ -90,4 +90,3 @@ ssh-add ~/.ssh/id_rsa
 이렇게 완료하고 나면 이후부턴 새로운 Repo를 만들때에도 자동으로 ssh주소가 만들어지기
 
 에 이메일과 비밀번호를 입력하는 번거로움이 사라진다!
-
