@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (pipenv error)-TypeError: 'module' object is not callable
+title: (pipenv error)-'module' object is not callable
 category: Python
 tags:
   - Python
@@ -49,18 +49,3 @@ pip version이 18.1로 업데이트 되면서 발생하는 원인인듯 하다.
 ### Reference
 
 > [Stackoverflow](https://stackoverflow.com/questions/52711988/pipenv-on-windows-module-object-is-not-callable?noredirect=1&lq=1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
