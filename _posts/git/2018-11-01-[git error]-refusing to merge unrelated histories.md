@@ -33,9 +33,9 @@ tags:
 
 ### 원인
 
-git을 삭제했다가 다시 `git init`을 하고 `git pull`을 하면 
+git을 삭제했다가 다시 `git init`을 하고 `git pull`을 하면
 
-우리가 봤을땐 같은 프로젝트임에도 불구하고 
+우리가 봤을땐 같은 프로젝트임에도 불구하고
 
 git의 입장에서는 전혀 새로운 프로젝트로 인식하는듯 하다.
 
@@ -43,7 +43,7 @@ git의 입장에서는 전혀 새로운 프로젝트로 인식하는듯 하다.
 
 전혀 다른 2개의 저장소에서의 작업을 합치는 관점에서 바라봐야 하고
 
-최초로 pull을 해오는 경우 뒤에 `--allow-unrelated-histories` 라는 커맨드를 
+최초로 pull을 해오는 경우 뒤에 `--allow-unrelated-histories` 라는 커맨드를
 
 추가로 입력해야 되는듯 하다.
 
@@ -52,4 +52,3 @@ git의 입장에서는 전혀 새로운 프로젝트로 인식하는듯 하다.
 ### Reference
 
 > [Stackoverflow](https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase)
-
