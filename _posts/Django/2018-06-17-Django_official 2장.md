@@ -24,7 +24,7 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
 
 
 
-####2. 모델 만들기
+#### 2. 모델 만들기
 
 - polls/models.py에 가서 커멘드 작성
 
@@ -73,7 +73,7 @@ INSTALLED_APPS = [
 
 
 
-####4. API 가지고 놀기 
+#### 4. API 가지고 놀기 
 
 - ipython 설치 후 shell실행 
 
@@ -273,7 +273,7 @@ Out[34]: <QuerySet [<Choice: Not much>, <Choice: The sky>, <Choice: Just hacking
 
 
 
-####5. Django admin 페이지 입력 
+#### 5. Django admin 페이지 입력 
 
 - 관리자 생성하기
 
