@@ -21,37 +21,36 @@ Django tutorial과 stop-out 과제를 하다보니 어떤 타이밍에 어떤 �
   ```python
   def detail(request, question_id):
       return HttpResponse("You're looking at question %s." % question_id)
-  ```
-
-
-  def results(request, quetion_id):
-      response = "You're looking at the results of question %s."
-      return HttpResponse(response % quetion_id)
-
-  def vote(request, question_id):
-      return HttpResponse("You're voting on question %s." % question_id)
-
+  
+   def results(request, quetion_id):
+        response = "You're looking at the results of question %s."
+        return HttpResponse(response % quetion_id)
+  
+    def vote(request, question_id):
+        return HttpResponse("You're voting on question %s." % question_id)
+  
   ```
 
 - polls/urls.py
 
   ```python
   from django.urls import path
-
+  
   from polls import views
-
+  
   urlpatterns = [
       # path(아무것도 없는 문자열이 오면, views의 index가 실행
       #    view.index를 실행하려면 config의 urls.py에 패턴추가
       path('', views.index, name='index'),
-  	"""
-  	추가된 부분
-  	"""
+      """
+    	추가된 부분
+    	"""
       path('<int:question_id>/', views.detail, name='detail'),
       path('<int:question_id>/results/', views.results, name='results'),
       path('<int:question_id>/vote/', views.vote, name='vote'),
   ]
   ```
+
 
 - config.url -> polls.url 순서
 
@@ -447,35 +446,39 @@ $ python manage.py startapp common
   ]
   ```
 
-
+  ```python
   from django.contrib import admin
   from django.urls import path, include
   from common.views import index
-
+  
   app_name = 'polls'	<- 추가
   urlpatterns = [
-      path('admin/', admin.site.urls),
-      # 경로(url 끝에 polls입력하면, polls 폴더의 urls.py를 include한다.)
-      path('polls/', include('polls.urls')),
-      path('blog/', include('blog.urls')),
-      path('', index),
+  path('admin/', admin.site.urls),
+  
+  # 경로(url 끝에 polls입력하면, polls 폴더의 urls.py를 include한다.)
+  
+  path('polls/', include('polls.urls')),
+  path('blog/', include('blog.urls')),
+  path('', index),
   ]
   ```
+
 
 - 이후 polls/templates/polls/index.html에서 app_name 수정
 
   ```django
   {% raw %}
-  {% if latest_question_list %}
-  <ul>
-      {% for question in latest_question_list %}
-      <li>
-          <a href="{% url 'detail -> polls:detail' question_id=question.id %}">{{ question.question_text }}</a>
-      </li>
-      {% endfor %}
-  </ul>
-  {% else %}
-  <p>No polls are available</p>
-  {% endif %}
-  {% endraw %}
+    {% if latest_question_list %}
+    <ul>
+        {% for question in latest_question_list %}
+        <li>
+            <a href="{% url 'detail -> polls:detail' question_id=question.id %}">{{ question.question_text }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No polls are available</p>
+    {% endif %}
+    {% endraw %}
   ```
+
