@@ -75,12 +75,11 @@ PyCharm안에서 Django의 실행결과를 바로바로 알아볼수 없으니 �
 
   - 그냥 shell을 실행했을때는 django모델들이 자동으로 import가 안되는 차이점이 있음
 
-
 ---
 
 
 
-####2. notebook도 실행 가능
+#### 2. notebook도 실행 가능
 
 - ./manage.py shell_plus --notebook을 입력
 - Django Shell-Plus가 포함된 notebook 페이지 실행
