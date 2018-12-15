@@ -117,3 +117,4 @@ tags:
 > [생활코딩-SQL의 UPDATE 구문](https://opentutorials.org/course/3161/19541)
 >
 > [생활코딩-SQL의 DELETE 구문](https://opentutorials.org/course/3161/19542)
+
