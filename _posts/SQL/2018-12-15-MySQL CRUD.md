@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MySQL CRUD
+title: (MySQL)-CRUD
 category: SQL
 tags:
   - SQL
@@ -44,8 +44,10 @@ tags:
   - **`DESC 테이블명;`**
     ![sqldesc](/assets/database/mysql/sqldesc.png)
 
-- ```mysql
-  mysql> INSERT INTO topic (title,description,created,author,profile) VALUES('MySQL','MySQL is ...',NOW(),'egoing','developer');
+- ```sql
+  mysql> INSERT INTO topic
+  (title,description,created,author,profile)
+  VALUES('MySQL','MySQL is ...',NOW(),'egoing','developer');
   ```
 
   - **`VALUES`**의 ()에 있는 컬럼이 어떤 컬럼인지 앞에 있는 ()를 통해서 유추

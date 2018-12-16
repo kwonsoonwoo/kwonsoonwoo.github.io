@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Database is locked 에러 해결
+title: (error)-Database is locked
 category: SQL
 tags:
   - SQL
