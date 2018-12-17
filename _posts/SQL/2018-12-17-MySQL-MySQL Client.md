@@ -118,8 +118,8 @@ Connection 성공 메시지
 
 ### Reference
 
-> [생활코딩-관계형 데이터베이스의 필요성](https://opentutorials.org/course/3161/19544)
+> [생활코딩-인터넷과 데이터베이스](https://opentutorials.org/course/3161/19546)
 >
-> [생활코딩-테이블 분리하기](https://opentutorials.org/course/3161/19521)
+> [생활코딩-MySQL 클라이언트](https://opentutorials.org/course/3161/19547)
 >
-> [생활코딩-관계형 데이터베이스의 꽃 JOIN](https://opentutorials.org/course/3161/19545)
+> [생활코딩-MySQL Workbench](https://opentutorials.org/course/3161/19548)
