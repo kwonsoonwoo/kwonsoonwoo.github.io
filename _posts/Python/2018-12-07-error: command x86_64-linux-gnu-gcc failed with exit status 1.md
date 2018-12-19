@@ -1,6 +1,6 @@
 ---
 layout: post
-title: error: command 'x86_64-linux-gnu-gcc' failed with exit status 1
+title: (Error)-command 'x86_64-linux-gnu-gcc' failed with exit status 1
 category: Python
 tags:
   - python error
