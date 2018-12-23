@@ -5,7 +5,7 @@ sidebar_link: true
 ---
 
 
-연극을 좋아하는 늦깎이 개발자 준비생.
+연극과 마술을 좋아하는 늦깎이 개발자 준비생.
 
 
 
@@ -14,7 +14,7 @@ sidebar_link: true
 * 이름: 권순우
 * 생년월일: 1987년 1월 28일
 * 이메일: [zenuine1@gmail.com](zenuine1@gmail.com)
-* github: [https://github.com/kwonsoonwoo](https://github.com/kwonsoonwoo)
+* Github: [https://github.com/kwonsoonwoo](https://github.com/kwonsoonwoo)
 
 ---
 
@@ -31,6 +31,7 @@ sidebar_link: true
 
 #### Project
 
+- [Let's Play Again](https://github.com/KwonSoonWoo/Letsplayagain)
 - [Myrealtrip](https://github.com/MRTOrganization/MyRealTrip_backend)
 
 ---
