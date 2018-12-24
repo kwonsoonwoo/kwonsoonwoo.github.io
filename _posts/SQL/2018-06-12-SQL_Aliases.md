@@ -18,7 +18,7 @@ tags:
 
 
 
-###SQL Aliases
+### SQL Aliases
 
 ---
 
@@ -52,7 +52,7 @@ FROM table_name AS alias_name;
 
 
 
-###Demo Database
+### Demo Database
 
 ---
 
@@ -215,7 +215,7 @@ FROM Customers;
 
 
 
-###Alias for Tables Example
+### Alias for Tables Example
 
 ---
 
