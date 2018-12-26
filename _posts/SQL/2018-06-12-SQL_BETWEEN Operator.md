@@ -18,7 +18,7 @@ tags:
 
 
 
-###The SQL BETWEEN Operator
+### The SQL BETWEEN Operator
 
 ---
 
@@ -40,7 +40,7 @@ WHERE column_name BETWEEN value1 AND value2;
 
 
 
-###Demo Database
+### Demo Database
 
 ---
 
@@ -103,7 +103,7 @@ Number of Records: 29
 
 
 
-###NOT BETWEEN Example
+### NOT BETWEEN Example
 
 ---
 
