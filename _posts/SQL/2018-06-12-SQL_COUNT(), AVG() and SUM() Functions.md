@@ -18,7 +18,7 @@ tags:
 
 
 
-###The SQL COUNT(), AVG() and SUM() Functions
+### The SQL COUNT(), AVG() and SUM() Functions
 
 ---
 
@@ -65,7 +65,7 @@ WHERE condition;
 
 
 
-###Demo Database
+### Demo Database
 
 ---
 
