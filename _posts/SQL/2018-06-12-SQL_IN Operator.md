@@ -18,7 +18,7 @@ tags:
 
 
 
-###The SQL IN Operator
+### The SQL IN Operator
 
 ---
 
@@ -54,7 +54,7 @@ WHERE column_name IN (SELECT STATEMENT);
 
 
 
-###Demo Database
+### Demo Database
 
 ---
 
