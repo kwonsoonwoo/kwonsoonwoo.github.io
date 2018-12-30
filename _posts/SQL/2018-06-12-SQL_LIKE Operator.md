@@ -18,7 +18,7 @@ tags:
 
 
 
-###The SQL LIKE Operator
+### The SQL LIKE Operator
 
 ---
 
@@ -82,7 +82,7 @@ WHERE condition;
 
 
 
-###Demo Database
+### Demo Database
 
 ---
 
@@ -172,7 +172,7 @@ Number of Records: 7
 
 
 
-###Example
+### Example
 
 ```sql
 SELECT * FROM Customers

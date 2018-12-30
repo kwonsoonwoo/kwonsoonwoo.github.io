@@ -90,7 +90,7 @@ SELECT * FROM table_name;
 
 
 
-###Example
+### Example
 
 ```sql
 SELECT CustomerName, City FROM Customers;
@@ -112,7 +112,7 @@ SELECT CustomerName, City FROM Customers;
 
 
 
-###Example
+### Example
 
 ```sql
 SELECT * FROM Customers;
