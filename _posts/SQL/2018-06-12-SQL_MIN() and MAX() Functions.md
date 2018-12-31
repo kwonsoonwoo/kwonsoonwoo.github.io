@@ -18,8 +18,7 @@ tags:
 
 
 
-
-###The SQL MIN() and MAX() Functions
+### The SQL MIN() and MAX() Functions
 
 ---
 
@@ -54,7 +53,7 @@ WHERE condition;
 
 
 
-###Demo Database
+### Demo Database
 
 ---
 
