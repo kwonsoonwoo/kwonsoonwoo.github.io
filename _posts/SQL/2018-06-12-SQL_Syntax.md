@@ -62,7 +62,7 @@ tags:
 
 다음 SQL 문은 "Customers"테이블의 모든 레코드를 선택합니다.
 
-###Example
+### Example
 
 ```sql
 SELECT * FROM Customers;
