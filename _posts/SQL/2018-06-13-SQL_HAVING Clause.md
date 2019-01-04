@@ -26,7 +26,7 @@ WHERE 키워드를 집계 함수와 함께 사용할 수 없으므로 HAVING 절
 
 
 
-####HAVING Syntax
+#### HAVING Syntax
 
 ```sql
 SELECT column_name(s)
