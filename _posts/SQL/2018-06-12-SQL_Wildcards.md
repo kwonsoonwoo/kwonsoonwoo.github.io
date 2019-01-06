@@ -18,7 +18,7 @@ tags:
 
 
 
-###SQL Wildcard Characters
+### SQL Wildcard Characters
 
 ---
 
@@ -59,7 +59,7 @@ MS Access 및 SQL Server에서는 다음을 사용할 수도 있습니다:
 
 
 
-###Demo Database
+### Demo Database
 
 ---
 
@@ -142,7 +142,7 @@ Number of Records: 9
 
  
 
-###Using the _ Wildcard
+### Using the _ Wildcard
 
 ---
 
@@ -152,7 +152,7 @@ Number of Records: 9
 
 
 
-###Example
+### Example
 
 ```sql
 SELECT * FROM Customers
