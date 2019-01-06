@@ -86,7 +86,7 @@ SELECT * FROM Customers -- WHERE City='Berlin';
 
 
 
-###Result(일부만 발췌):
+### Result(일부만 발췌):
 
 Number of Records: 154
 
@@ -165,7 +165,7 @@ SELECT * FROM Customers;
 
 
 
-###Result(일부만 발췌):
+### Result(일부만 발췌):
 
 Number of Records: 154
 
