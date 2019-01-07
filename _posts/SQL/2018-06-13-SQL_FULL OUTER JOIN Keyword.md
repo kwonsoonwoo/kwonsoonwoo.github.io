@@ -26,7 +26,7 @@ FULL OUTER JOIN 키워드는 왼쪽 (table1) 또는 오른쪽 (table2) 테이블
 
 
 
-####FULL OUTER JOIN Syntax
+#### FULL OUTER JOIN Syntax
 
 ```sql
 SELECT column_name(S)
