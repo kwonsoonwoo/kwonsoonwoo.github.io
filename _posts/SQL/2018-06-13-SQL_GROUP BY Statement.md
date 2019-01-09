@@ -26,7 +26,7 @@ GROUP BY 문은 집계 함수 (COUNT, MAX, MIN, SUM, AVG)와 함께 사용되어
 
 
 
-####GROUP BY Syntax
+#### GROUP BY Syntax
 
 ```sql
 SELECT column_name(s)
