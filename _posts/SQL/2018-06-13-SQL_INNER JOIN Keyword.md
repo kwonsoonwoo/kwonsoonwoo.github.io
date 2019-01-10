@@ -26,7 +26,7 @@ INNER JOIN 키워드는 두 표에서 모두 일치하는 값을 가진 레코�
 
 
 
-####INNER JOIN Syntax
+#### INNER JOIN Syntax
 
 
 
