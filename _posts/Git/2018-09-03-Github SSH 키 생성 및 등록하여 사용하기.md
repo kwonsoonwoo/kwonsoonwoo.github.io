@@ -51,7 +51,7 @@ ssh-keygen -t rsa -C “your_email@example.com”
 - ssh -agent에 만들어 놓은 ssh키를 추가하기 전에 ssh-agent가 정상 실행중인지 확인
 
 ```bash
-eval $ (ssh-agent -s)
+eval "$(ssh-agent -s)"
 ```
 
 - "agent pid 12345" <- 명령어 밑에서 이런 문장이 출력된다면 정상 실행중인것.
