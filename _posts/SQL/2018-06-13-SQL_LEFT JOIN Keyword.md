@@ -26,7 +26,7 @@ LEFT JOIN 키워드는 왼쪽 테이블 (table1)의 모든 레코드와 오른�
 
 
 
-####LEFT JOIN Syntax
+#### LEFT JOIN Syntax
 
 
 
