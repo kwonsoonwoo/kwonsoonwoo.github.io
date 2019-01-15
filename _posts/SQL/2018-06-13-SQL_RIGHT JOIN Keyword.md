@@ -26,7 +26,7 @@ RIGHT JOIN 키워드는 오른쪽 테이블 (table2)의 모든 레코드와 왼�
 
 
 
-####RIGHT JOIN Syntax
+#### RIGHT JOIN Syntax
 
 ```sql
 SELECT column_name(S)
