@@ -26,7 +26,7 @@ self JOIN은 정규 조인이지만 테이블 자체는 조인됩니다.
 
 
 
-####Self JOIN Syntax
+#### Self JOIN Syntax
 
 ```sql
 SELECT column_name(S)
@@ -92,4 +92,4 @@ Number of Records: 94
 | Around the Horn                | Consolidated Holdings          | London       |
 | Around the Horn                | Eastern Connection             | London       |
 
-**총 94개의 Record가 있음**
+**총 94개의 Record가 있음**s
