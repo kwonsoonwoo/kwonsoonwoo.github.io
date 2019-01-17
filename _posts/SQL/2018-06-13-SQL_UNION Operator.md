@@ -30,7 +30,7 @@ UNION 연산자는 두 개 이상의 SELECT 문의 결과 집합을 결합하는
 
 
 
-####UNION Syntax
+#### UNION Syntax
 
 ```sql
 SELECT column_name(s) FROM table1
