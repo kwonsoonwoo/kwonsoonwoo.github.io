@@ -26,7 +26,7 @@ ALTER TABLE 문은 기존 테이블에 다양한 제한 조건을 추가,삭제�
 
 
 
-###ALTER TABLE - ADD Column
+### ALTER TABLE - ADD Column
 
 테이블에 열을 추가하려면 다음 구문을 사용하십시오.
 
