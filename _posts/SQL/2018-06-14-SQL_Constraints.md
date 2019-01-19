@@ -45,7 +45,7 @@ CREATE TABLE table_name (
 
 
 
-###SQL Constraints
+### SQL Constraints
 
 SQL 제약 조건은 테이블의 데이터에 대한 규칙을 지정하는 데 사용됩니다.
 
