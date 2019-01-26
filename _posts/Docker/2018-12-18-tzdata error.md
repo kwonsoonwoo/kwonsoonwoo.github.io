@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (Error)-tzdata,geographic area 선택 에러
-category: Deploy
+category: Docker
 tags:
   - docker
   - tzdata
@@ -53,7 +53,6 @@ tags:
   ```dockerfile
   ENV         DEBIAN_FRONTEND=noninteractive
   ```
-
 
 ------
 
