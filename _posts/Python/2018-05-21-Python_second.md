@@ -585,4 +585,4 @@ Traceback (most recent call last):
 
 ## 실습
 
-1. 매개변수로 문자열을 받고, 해당 문자열이 ```red```면 ```apple```을, ```yellow```면 ```banana```를, ```green```이면 ```melon``` 을, 어떤 경우도 아닐 경우 ```I don't know```를 리턴하는 함수를 정의하고, 사용하여 ```result```변수에 결과를 할당하고 ```print```해본다.
+1. 매개변수로 문자열을 받고 해당 문자열이 ```red```면 ```apple```, ```yellow```면 ```banana```, ```green```이면 ```melon``` , 어떤 경우도 아닐 경우 ```I don't know```를 리턴하는 함수를 정의하고 사용하여 ```result```변수에 결과를 할당하고 ```print```해본다.
