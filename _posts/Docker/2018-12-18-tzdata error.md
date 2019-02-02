@@ -38,7 +38,7 @@ tags:
 
   geographic area를 선택하라는 메시지가 나오고 선택하면 build가 
 
-  화면처럼 멈춘 상태에서 진행이 안된다
+  화면처럼 멈춘 상태에서 진행이 안된다.
 
 ![dockertzdata](/assets/docker/dockertzdata.png)
 
