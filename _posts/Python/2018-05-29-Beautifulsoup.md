@@ -37,7 +37,7 @@ and they lived at the bottom of a well.</p>
 3. from bs4 import BeautifulSoup
    soup = BeautifulSoup(html_doc, 'lxml')
   
-print(html_doc)			# 입력한 그대로 나옴.
+print(html_doc)			# 입력한 그대로 나옴
 print(soup.prettify())   # 자동으로 닫는 태그 생성
      					  태그들이 어떤 클래스의 인스턴스 형태. 
 print(soup.title)
