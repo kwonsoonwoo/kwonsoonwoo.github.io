@@ -8,10 +8,6 @@ tags:
 
 
 
-해당 포스트는 아래 블로그를 참조했습니다.
-
-> [땅뚱 창고](http://pinocc.tistory.com/175)
-
 
 ```python
 # 만약 이 파일이 인터프리터에 의해서 실행되는 경우라면 이라는 의미.
@@ -61,7 +57,11 @@ I am being imported from another module
 
 
 
+### Reference
 
+---
+
+> [땅뚱 창고](http://pinocc.tistory.com/175)
 
 
 
