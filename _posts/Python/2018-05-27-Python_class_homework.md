@@ -9,8 +9,8 @@ tags:
 
 
 도서 관리 프로그램
-    Library, Book, User클래스 구현
-        프로그램 시작시 도서 5권 정도를 가진 상태로 시작
+Library, Book, User클래스 구현
+프로그램 시작시 도서 5권 정도를 가진 상태로 시작
 
     Library
         attrs
