@@ -12,9 +12,9 @@ tags:
 
 
 
-> 박재성 님의 [Spring-Boot, JPA로 질문/답변 게시판 구현 과정](https://www.youtube.com/playlist?list=PLqaSEyuwXkSppQAjwjXZgKkjWbFoUdNXC)을 개인공부하며
+> 박재성 님의 [Spring-Boot, JPA로 질문/답변 게시판 구현 과정](https://www.youtube.com/playlist?list=PLqaSEyuwXkSppQAjwjXZgKkjWbFoUdNXC)을 
 >
-> 정리하는 용도의 포스팅입니다.
+> 개인공부하며 정리하는 용도의 포스팅입니다.
 
 
 
