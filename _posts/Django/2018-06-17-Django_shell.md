@@ -81,7 +81,7 @@ PyCharm안에서 Django의 실행결과를 바로바로 알아볼수 없으니 �
 
 #### 2. notebook도 실행 가능
 
-- ./manage.py shell_plus --notebook을 입력
+- `./manage.py shell_plus --notebook`을 입력
 - Django Shell-Plus가 포함된 notebook 페이지 실행
 - 오른쪽 상단 부분 new를 클릭하여 Django Shell-Plus를 클릭 하면
 - Django 모듈들이 포함된 pynb가 실행되기 때문에 별도로 import를 안해도 되는 편리함이 있음.
