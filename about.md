@@ -4,8 +4,9 @@ title: About
 sidebar_link: true
 ---
 
+연극과 마술을 좋아하는 늦깎이 개발자 준비생에서
 
-연극과 마술을 좋아하는 늦깎이 개발자 준비생.
+2019년 1월부로 정식 개발자가 된 초보 개발러
 
 
 
@@ -24,6 +25,7 @@ sidebar_link: true
 
 * 2018.05 ~ 2018.08 - Fastcampus Web Programming School 8기
 * 2018.09 ~ 2018.11 - Fastcampus Web Programming School 9기 클래스 매니저
+* 2019.01 ~ 현 재      - 크로센트 cloudXpert team 전임 아키텍트
 
 ---
 
