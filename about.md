@@ -25,7 +25,7 @@ sidebar_link: true
 
 * 2018.05 ~ 2018.08 - Fastcampus Web Programming School 8기
 * 2018.09 ~ 2018.11 - Fastcampus Web Programming School 9기 클래스 매니저
-* 2019.01 ~ 현 재      - 크로센트 cloudXpert team 전임 아키텍트
+* 2019.01 ~               - 크로센트 cloudXpert team 전임 아키텍트
 
 ---
 
@@ -34,6 +34,7 @@ sidebar_link: true
 #### Project
 
 - [Let's Play Again](https://github.com/KwonSoonWoo/Letsplayagain)
+- [DjangoGirs Blog Tutorial](http://kwonsoonwoo.pythonanywhere.com/)
 - [Myrealtrip](https://github.com/MRTOrganization/MyRealTrip_backend)
 
 ---
