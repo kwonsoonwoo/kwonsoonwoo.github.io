@@ -42,7 +42,7 @@ Servlet.service() for servlet [dispatcherServlet] in context with path [] threw 
 
 자바에 대해서 아직은 명확하게 모르는 상황이기 때문에
 
-참고 사이트에서 설명을 보는게 훨씬 더 이해하기 쉬울 것이다.
+참고 사이트에서 설명을 보는게 훨씬 더 이해하기 쉬울 것이다. 
 
 
 
