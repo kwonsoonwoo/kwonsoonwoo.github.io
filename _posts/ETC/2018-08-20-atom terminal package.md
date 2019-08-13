@@ -35,7 +35,7 @@ tags:
 
 터미널의 테마변경이나 키바인딩 등은 Packages -> platformio-ide-terminal로 가서 하면 된다.
 
-![atom package3](/assets/atom package/3.settings->packages.png)
+![atom package3](/assets/atom package/3.settings-packages.png)
 
 
 

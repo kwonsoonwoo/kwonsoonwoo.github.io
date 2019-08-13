@@ -52,4 +52,3 @@ Python.h라는 헤더 파일이 없어서 gcc가 응용 프로그램을 빌드�
 ### Reference
 
 > [Stackoverflow](https://stackoverflow.com/questions/26053982/setup-script-exited-with-error-command-x86-64-linux-gnu-gcc-failed-with-exit)
-

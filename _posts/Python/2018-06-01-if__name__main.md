@@ -62,16 +62,3 @@ I am being imported from another module
 ---
 
 > [땅뚱 창고](http://pinocc.tistory.com/175)
-
-
-
-
-
-
-
-
-
-
-
-
-
