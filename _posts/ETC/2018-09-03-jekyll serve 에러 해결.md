@@ -27,7 +27,7 @@ jekyll serve를 실행했을 때 오류를 처음으로 경험해서 구글링�
 
 **해결 방법**
 
-- 아래 명령어 실행
+- 아래 명령어 실행.
 
 ```bash
 bundle clean --force
@@ -38,4 +38,3 @@ bundle clean --force
 
 
 꼭 저렇게 하지 않아도 ```bundle exec jekyll server``` 를 입력해도 정상적으로 기능한다.
-
