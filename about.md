@@ -23,9 +23,9 @@ sidebar_link: true
 
 #### 경력
 
-* 2018.05 ~ 2018.08 - Fastcampus Web Programming School 8기
-* 2018.09 ~ 2018.11 - Fastcampus Web Programming School 9기 클래스 매니저
 * 2019.01 ~               - 크로센트 cloudXpert team 전임 아키텍트
+* 2018.09 ~ 2018.11 - Fastcampus Web Programming School 9기 클래스 매니저
+* 2018.05 ~ 2018.08 - Fastcampus Web Programming School 8기
 
 ---
 
