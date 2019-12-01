@@ -68,7 +68,9 @@ tags:
 
 `tzdata`를`dpkg` 명령어를 통해서 setting 하는데
 
-이때, Dialog라는 대화형 프론트엔드를 사용한다. 이 과정에서 충돌이 일어나기 때문에
+이때, Dialog라는 대화형 프론트엔드를 사용한다. 
+
+이 과정에서 충돌이 일어나기 때문에
 
 `DEBIAN_FRONTEND`를 noninteractive로 설정한게 아닐까 생각한다.
 
