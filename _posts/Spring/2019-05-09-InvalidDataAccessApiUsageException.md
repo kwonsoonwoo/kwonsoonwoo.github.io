@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (error)-InvalidDataAccessApiUsageException
+title: InvalidDataAccessApiUsageException
 category: Spring
 tags:
   - Spring
