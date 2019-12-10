@@ -7,7 +7,7 @@ tags:
   - Spring-Boot
   - JPA
   - InvalidDataAccessApiUsageException
-  - @Transactional
+  - Transactional
 ---
 
 
@@ -30,7 +30,7 @@ api 단에서의 문제로 아래 에러메시지를 검색해서 해결.
 
 ---
 
-Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is **org.springframework.dao.InvalidDataAccessApiUsageException**: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call; nested exception is 
+Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is **org.springframework.dao.InvalidDataAccessApiUsageException**: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call; nested exception is
 
 **javax.persistence.TransactionRequiredException**: No EntityManager with actual transaction available for current thread - cannot reliably process 'remove' call] with root cause
 
@@ -42,7 +42,7 @@ Servlet.service() for servlet [dispatcherServlet] in context with path [] threw 
 
 자바에 대해서 아직은 명확하게 모르는 상황이기 때문에
 
-참고 사이트에서 설명을 보는게 훨씬 더 이해하기 쉬울 것이다. 
+참고 사이트에서 설명을 보는게 훨씬 더 이해하기 쉬울 것이다.
 
 
 
