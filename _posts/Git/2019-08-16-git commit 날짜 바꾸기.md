@@ -41,6 +41,3 @@ tags:
 ### Reference
 
 [Code with Hugo](https://codewithhugo.com/change-the-date-of-a-git-commit/)
-
-
-
