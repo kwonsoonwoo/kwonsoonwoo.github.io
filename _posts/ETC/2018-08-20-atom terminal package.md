@@ -39,7 +39,7 @@ tags:
 
 
 
-터미널 실행키는 Ctrl + ` 로 실행하거나
+터미널 실행키는 Ctrl + ` (숫자키 1 왼쪽에 있는거)로 실행하거나
 
 상단 메뉴바에 Packages -> platformio-ide-terminal -> Toggle을 클릭하면 된다.
 
