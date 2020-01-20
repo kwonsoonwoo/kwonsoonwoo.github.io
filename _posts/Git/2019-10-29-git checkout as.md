@@ -1,6 +1,6 @@
 ---
 layout: post
-title: git stash
+title: git checkout as
 category: Git
 tags:
   - git
