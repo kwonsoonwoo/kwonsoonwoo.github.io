@@ -44,11 +44,11 @@ tags:
   - `FileZilla` 이용
   - (A)의 파일을 로컬 PC로 다운로드
 
-  ![mysqldump1](/assets/database/mysql/mysqldump1.png)
+  ![mysqldump](/assets/database/mysql/mysqldump.png)
 
   - 로컬 PC의 파일을 (B)로 업로드
 
-  ![mysqldump2](/assets/database/mysql/mysqldump2.png)
+  ![mysqldump1](/assets/database/mysql/mysqldump1.png)
 
 - (B)로 접속하여 데이터 복구
 
