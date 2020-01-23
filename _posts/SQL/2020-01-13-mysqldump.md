@@ -48,7 +48,7 @@ tags:
 
   - 로컬 PC의 파일을 (B)로 업로드
 
-  ![mysqldump](/assets/database/mysql/mysqldump.png)
+  ![mysqldump1](/assets/database/mysql/mysqldump1.png)
 
 - (B)로 접속하여 데이터 복구
 
