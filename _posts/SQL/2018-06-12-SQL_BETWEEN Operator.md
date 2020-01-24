@@ -44,8 +44,6 @@ WHERE column_name BETWEEN value1 AND value2;
 
 ---
 
-
-
 다음은 Northwind 샘플 데이터베이스의 "Products" 테이블에서 선택한 것입니다:
 
 
