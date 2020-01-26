@@ -121,8 +121,6 @@ You have made changes to the database. Rows affected: 1
 
 ---
 
-
-
 테이블 삭제 없이 테이블삭의 모든 행을 삭제할 수 있습니다. 이는 테이블 구조, 속성 및 인덱스가 손상되지 않는다는 것을 의미합니다.
 
 
