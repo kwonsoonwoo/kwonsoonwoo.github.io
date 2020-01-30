@@ -98,7 +98,7 @@ ubuntu@inception:~$ cf curl /v2/organizations/575cf8b3-a59a-4ab5-806d-9494d60b14
 
 
 - 유저목록중 `swookwon4` 를 삭제하고 싶어서 아래 명령어 입력
-- `cf curl -X DELETE 'v2/organizations/해당 org의 guid/users' -d '{"username" : "swookwon4"}'`
+- `cf curl -X DELETE '/v2/organizations/해당 org의 guid/users' -d '{"username" : "swookwon4"}'`
 
 - 결과
 
