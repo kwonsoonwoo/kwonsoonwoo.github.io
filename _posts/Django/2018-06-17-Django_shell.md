@@ -4,6 +4,9 @@ title: Django shell
 category: Django
 tags:
   - Django
+  - shell plus
+  - django extensions
+  - shell plus --notebook
 ---
 
 
