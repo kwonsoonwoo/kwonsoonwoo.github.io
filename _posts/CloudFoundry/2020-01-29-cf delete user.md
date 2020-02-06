@@ -4,7 +4,7 @@ title: cf org에 등록되어 있는 user를 삭제
 category: CloudFoundry
 tags:
   - cloudfoundry
-  - cf curl -X DELETE '/v2/organizations/<ORG_GUID>/users'
+  - cf curl -X DELETE '/v2/organizations/ORG_GUID/users'
   - cf org에 등록되어 있는 user를 삭제하고 싶을때
 ---
 
