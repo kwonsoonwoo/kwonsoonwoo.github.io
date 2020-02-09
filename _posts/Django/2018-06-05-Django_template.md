@@ -4,6 +4,8 @@ title: Django template 확장 및 CSRF
 category: Django
 tags:
   - Django
+  - django template
+  - CSRF
 ---
 
 
