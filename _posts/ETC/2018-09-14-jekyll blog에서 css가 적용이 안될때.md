@@ -23,11 +23,9 @@ tags:
 
 **(내가 뭘 잘못한거니...?)**
 
-
+---
 
 **해결법**
-
-> [출처](https://stackoverflow.com/questions/25466166/stylesheets-not-working-for-jekyll-theme-freelancer-bootstrap)
 
 **```_config.yml```** 파일의 **```baseurl```**부분을 내 github과 연결된 repo주소 혹은 블로그 주소로 변환.
 
@@ -47,3 +45,9 @@ tags:
 
 
 잘 이해가 되지 않는다면 위에 있는 출처를 통해 오류원인을 보다 정확히 알수 있다.
+
+---
+
+### Reference
+
+[Stylesheets not working for Jekyll theme Freelancer bootstrap](https://stackoverflow.com/questions/25466166/stylesheets-not-working-for-jekyll-theme-freelancer-bootstrap)
