@@ -5,6 +5,7 @@ category: ETC
 tags:
   - ETC
   - jekyll
+  - jekyll serve(Gem::LoadError)
 ---
 
 
@@ -13,7 +14,7 @@ jekyll serve를 실행했을 때 오류를 처음으로 경험해서 구글링�
 
 기록한다.
 
-> [CHEF-KOCH의 github](https://github.com/CHEF-KOCH/CHEF-KOCH.github.io)
+---
 
 
 
@@ -22,6 +23,8 @@ jekyll serve를 실행했을 때 오류를 처음으로 경험해서 구글링�
 - jekyll serve를 입력했을때 아래와 같은 오류(Gem::LoadError)가 뜬다.
 
 ![jekyll serve 에러](/assets/jekyll/jekyll serve 에러.png)
+
+---
 
 
 
@@ -38,3 +41,11 @@ bundle clean --force
 
 
 꼭 저렇게 하지 않아도 ```bundle exec jekyll server``` 를 입력해도 정상적으로 기능한다.
+
+
+
+### Reference
+
+---
+
+> [CHEF-KOCH의 github](https://github.com/CHEF-KOCH/CHEF-KOCH.github.io)
