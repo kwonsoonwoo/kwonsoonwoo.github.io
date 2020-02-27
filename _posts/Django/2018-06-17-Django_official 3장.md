@@ -4,6 +4,7 @@ title: Django tutorial 3장
 category: Django
 tags:
   - Django
+  - django tutorial
 ---
 
 
