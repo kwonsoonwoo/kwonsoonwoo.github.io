@@ -5,11 +5,10 @@ category: Django
 tags:
   - Django
   - Djangogirls
+  - djangogirls blog app
 ---
 
 
-
-참고 : [Djangogirls](https://tutorial.djangogirls.org/ko/django_models/)
 
 
 
@@ -171,5 +170,9 @@ git branch -d admin
 
 
 
+---
 
+### Reference
+
+> [Djangogirls](https://tutorial.djangogirls.org/ko/django_models/)
 
