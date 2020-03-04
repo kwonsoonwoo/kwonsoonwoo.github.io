@@ -4,6 +4,7 @@ title: Django HTML 시작하기
 category: Django
 tags:
   - Django
+  - django html로 rendering 하기
 ---
 
 
