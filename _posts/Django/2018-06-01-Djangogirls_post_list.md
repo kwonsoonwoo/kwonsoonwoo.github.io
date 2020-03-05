@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Djangogirls post list기본 구현
+title: Djangogirls post-list 기본 구현
 category: Django
 tags:
   - Django
   - Djangogirls
+  - post list 기본 구현
 ---
 
 
 
-참고 : [Djangogirls](https://tutorial.djangogirls.org/ko/django_models/)
 
 
-
-# Djangogirls post list기본 구현
+# Djangogirls post list 기본 구현
 
 **post-list 브랜치 생성**
 
@@ -141,3 +140,11 @@ app -> templates 폴더 생성 -> blog 폴더 생성
 - 현재 경로가 어디인지 위치를 확인하려면 각 경로별로 프린트 해볼것
 
   - runserver를 돌린 상태에서 블로그 페이지를 새로고침하면 출력확인.
+
+
+
+---
+
+### Reference
+
+> [Djangogirls](https://tutorial.djangogirls.org/ko/django_models/)
