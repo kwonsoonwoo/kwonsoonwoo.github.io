@@ -4,6 +4,7 @@ title: if __name__=='__main__'
 category: Python
 tags:
   - Python
+  - if __name__ == '__main__'
 ---
 
 
