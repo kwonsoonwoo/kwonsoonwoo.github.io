@@ -4,6 +4,8 @@ title: SQL DELETE Statement
 category: SQL
 tags:
   - SQL
+  - SQL DELETE
+  - DELETE FROM WHERE
 ---
 
 
