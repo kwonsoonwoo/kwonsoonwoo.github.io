@@ -4,6 +4,10 @@ title: Python 시퀀스
 category: Python
 tags:
   - Python
+  - python sequence
+  - 문자열(string)
+  - 리스트(list)
+  - 튜플(tuple)
 ---
 
 
