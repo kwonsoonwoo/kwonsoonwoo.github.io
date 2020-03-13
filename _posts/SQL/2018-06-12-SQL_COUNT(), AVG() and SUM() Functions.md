@@ -4,6 +4,9 @@ title: SQL COUNT(), AVG() and SUM() Functions
 category: SQL
 tags:
   - SQL
+  - sql count함수
+  - sql avg 함수
+  - sql sum 함수
 ---
 
 
