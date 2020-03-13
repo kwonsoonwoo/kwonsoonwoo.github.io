@@ -4,6 +4,8 @@ title: SQL BETWEEN Operator
 category: SQL
 tags:
   - SQL
+  - BETWEEN Operator
+  - BETWEEN 연산자
 ---
 
 
