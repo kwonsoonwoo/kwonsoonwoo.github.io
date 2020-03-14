@@ -4,6 +4,9 @@ title: SQL AND, OR and NOT Operators
 category: SQL
 tags:
   - SQL
+  - AND 연산자
+  - OR 연산자
+  - NOT 연산자
 ---
 
 
