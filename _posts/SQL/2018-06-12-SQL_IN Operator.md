@@ -4,6 +4,8 @@ title: SQL IN Operator
 category: SQL
 tags:
   - SQL
+  - IN Operator
+  - SQL IN 연산자
 ---
 
 
