@@ -4,6 +4,8 @@ title: SQL LIKE Operator
 category: SQL
 tags:
   - SQL
+  - SQL LIKE Operator
+  - SQL LIKE 연산자
 ---
 
 
