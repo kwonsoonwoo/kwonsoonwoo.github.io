@@ -4,6 +4,9 @@ title: SQL ORDER BY Keyword
 category: SQL
 tags:
   - SQL
+  - SQL ORDER BY
+  - SQL ORDER BY ASC
+  - SQL ORDER BY DESC
 ---
 
 

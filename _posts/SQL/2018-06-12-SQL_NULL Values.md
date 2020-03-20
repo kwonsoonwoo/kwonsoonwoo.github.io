@@ -4,6 +4,9 @@ title: SQL NULL Values
 category: SQL
 tags:
   - SQL
+  - SQL NULL
+  - SQL IS NULL
+  - SQL IS NOT NULL
 ---
 
 
