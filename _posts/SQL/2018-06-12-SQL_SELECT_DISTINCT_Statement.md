@@ -4,6 +4,7 @@ title: SQL SELECT DISTINCT Statement
 category: SQL
 tags:
   - SQL
+  - SQL SELECT DISTINCT
 ---
 
 
