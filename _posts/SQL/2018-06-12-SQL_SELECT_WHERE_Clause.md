@@ -4,6 +4,8 @@ title: SQL WHERE Clause
 category: SQL
 tags:
   - SQL
+  - SQL WHERE Clause
+  - SQL WHERE 절
 ---
 
 
