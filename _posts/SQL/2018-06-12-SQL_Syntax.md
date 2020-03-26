@@ -4,6 +4,8 @@ title: SQL Syntax
 category: SQL
 tags:
   - SQL
+  - SQL Syntax
+  - SQL 문법
 ---
 
 
