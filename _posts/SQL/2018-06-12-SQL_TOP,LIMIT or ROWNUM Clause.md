@@ -4,6 +4,7 @@ title: SQL TOP, LIMIT or ROWNUM Clause
 category: SQL
 tags:
   - SQL
+  - SQL TOP, LIMIT ROWNUM Clause
 ---
 
 
