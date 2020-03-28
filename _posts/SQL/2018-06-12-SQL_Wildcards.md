@@ -4,6 +4,7 @@ title: SQL Wildcards
 category: SQL
 tags:
   - SQL
+  - SQL Wildcards
 ---
 
 
