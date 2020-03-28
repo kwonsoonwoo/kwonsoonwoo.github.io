@@ -4,6 +4,7 @@ title: SQL UPDATE Statement
 category: SQL
 tags:
   - SQL
+  - SQL UPDATE Statement
 ---
 
 
