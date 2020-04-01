@@ -4,6 +4,7 @@ title: SQL Comments
 category: SQL
 tags:
   - SQL
+  - SQL Comments
 ---
 
 
