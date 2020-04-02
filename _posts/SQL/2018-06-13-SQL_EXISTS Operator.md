@@ -4,6 +4,7 @@ title: SQL EXISTS Operator
 category: SQL
 tags:
   - SQL
+  - SQL EXISTS Operator
 ---
 
 
