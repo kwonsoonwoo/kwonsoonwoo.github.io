@@ -4,6 +4,7 @@ title: SQL FULL OUTER JOIN Keyword
 category: SQL
 tags:
   - SQL
+  - SQL FULL OUTER JOIN Keyword
 ---
 
 
