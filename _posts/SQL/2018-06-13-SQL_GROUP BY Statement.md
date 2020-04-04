@@ -4,6 +4,7 @@ title: SQL GROUP BY Statement
 category: SQL
 tags:
   - SQL
+  - SQL GROUP BY Statement
 ---
 
 
