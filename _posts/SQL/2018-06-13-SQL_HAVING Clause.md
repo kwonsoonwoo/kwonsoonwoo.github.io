@@ -4,6 +4,8 @@ title: SQL HAVING Clause
 category: SQL
 tags:
   - SQL
+  - SQL HAVING Clause
+  - SQL HAVING 
 ---
 
 
