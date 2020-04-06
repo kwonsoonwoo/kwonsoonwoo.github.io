@@ -1,6 +1,6 @@
 ---
 layout: post
-title: intellij invalidate Cache/Restart
+title: intellij invalidate Cache/Restart(티스토리 이전)
 category: ETC
 tags:
   - ETC
@@ -9,6 +9,12 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/11)
+
+
+
+<!--
 
 ### 개요
 
@@ -39,3 +45,5 @@ tags:
 ### Reference
 
 [기계인간 John Grib](https://johngrib.github.io/wiki/intellij/)
+
+-->
