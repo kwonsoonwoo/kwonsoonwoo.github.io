@@ -1,6 +1,6 @@
 ---
 layout: post
-title: jekyll blog에서 css가 적용이 안될때 해결법
+title: jekyll blog에서 css가 적용이 안될때 해결법(티스토리 이전)
 category: ETC
 tags:
   - ETC
@@ -9,7 +9,9 @@ tags:
 
 
 
+[여기로 이동](https://lifetutorial.tistory.com/7)
 
+<!--
 
 마음에 드는 jekyll theme의 github에서 fork를 떠오거나 
 
@@ -51,3 +53,7 @@ tags:
 ### Reference
 
 [Stylesheets not working for Jekyll theme Freelancer bootstrap](https://stackoverflow.com/questions/25466166/stylesheets-not-working-for-jekyll-theme-freelancer-bootstrap)
+
+
+
+-->

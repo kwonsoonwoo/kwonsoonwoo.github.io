@@ -1,6 +1,6 @@
 ---
 layout: post
-title: atom 터미널 패키지 설치
+title: atom 터미널 패키지 설치(티스토리로 이전)
 category: ETC
 tags:
   - ETC
@@ -8,6 +8,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/2)
+
+<!-- 
 
 많은 IDE에서 기본으로 터미널이 제공되지만 atom은 패키지를 설치해야 한다.
 
@@ -46,3 +50,5 @@ tags:
 만약 안될 경우에는 atom을 종료 후 재 실행하는 것을 추천.
 
 (~~뭐가 안되면 일단 재부팅이 답...~~)
+
+-->

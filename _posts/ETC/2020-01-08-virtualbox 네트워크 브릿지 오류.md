@@ -1,6 +1,6 @@
 ---
 layout: post
-title: virtualbox 네트워크 어댑터에 브리지 오류
+title: virtualbox 네트워크 어댑터에 브리지 오류(티스토리 이전)
 category: ETC
 tags:
   - ETC
@@ -10,7 +10,11 @@ tags:
 
 
 
+[여기로 이동](https://lifetutorial.tistory.com/12)
 
+
+
+<!--
 
 ### 문제상황
 
@@ -107,5 +111,5 @@ virtualbox를 켜서 업무를 진행하고자 했으나 네트워크 설정 이
 
 [한놈님의 블로그](https://hannom.tistory.com/112)
 
-
+-->
 
