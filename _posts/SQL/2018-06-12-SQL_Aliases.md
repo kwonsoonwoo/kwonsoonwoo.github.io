@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Aliases
+title: SQL Aliases(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -9,6 +9,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/15)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -285,3 +289,5 @@ Aliases는 다음과 같은 경우에 유용합니다:
 - 함수가 쿼리에서 사용되는 경우
 - Column 이름이 크거나 혹은 읽을 수 없는 경우
 - 두 개 이상의 column이 결합되어 있는 경우
+
+-->

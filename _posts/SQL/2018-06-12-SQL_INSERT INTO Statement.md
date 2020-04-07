@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The SQL INSERT INTO Statement
+title: The SQL INSERT INTO Statement(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -9,6 +9,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/23)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -175,3 +179,5 @@ You have made changes to the database. Rows affected: 1
 | 90         | Wilman Kala          | Matti Karttunen | Keskuskatu 45               | Helsinki  | 21240      | Finland |
 | 91         | Wolski               | Zbyszek         | ul. Filtrowa 68             | Walla     | 01-012     | Poland  |
 | 92         | Cardinal             | null            | null                        | Stavanger | null       | Norway  |
+
+-->

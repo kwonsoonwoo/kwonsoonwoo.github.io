@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL MIN() and MAX() Functions
+title: SQL MIN() and MAX() Functions(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -10,6 +10,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/25)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -140,4 +144,4 @@ Number of Records: 1
 | ------------ |
 | 263.5        |
 
-
+-->

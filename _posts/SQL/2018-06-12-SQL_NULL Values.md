@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL NULL Values
+title: SQL NULL Values(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -10,6 +10,12 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/26)
+
+
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -159,3 +165,5 @@ WHERE Address IS NOT NULL;
 | -------- | --------- | ------------------ |
 | Doe      | John      | 542 W. 27th Street |
 | Smith    | John      | 110 Bishopsgate    |
+
+-->

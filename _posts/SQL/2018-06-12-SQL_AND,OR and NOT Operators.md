@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL AND, OR and NOT Operators
+title: SQL AND, OR and NOT Operators(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -10,6 +10,12 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/14)
+
+
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -282,3 +288,5 @@ Number of Records: 67
 | 7          | Blondel père et fils               | Frédérique Citeaux | 24, place Kléber              | Strasbourg  | 67000      | France  |
 | 8          | Bólido Comidas preparadas          | Martín Sommer      | C/ Araquil, 67                | Madrid      | 28023      | Spain   |
 | 9          | Bon app'                           | Laurence Lebihans  | 12, rue des Bouchers          | Marseille   | 13008      | France  |
+
+-->

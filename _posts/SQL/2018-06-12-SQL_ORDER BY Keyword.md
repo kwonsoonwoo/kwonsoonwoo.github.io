@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL ORDER BY Keyword
+title: SQL ORDER BY Keyword(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -10,6 +10,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/27)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -237,3 +241,5 @@ Number of Records: 91
 | 76         | Suprêmes délices           | Pascale Cartrain | Boulevard Tirou, 255                | Charleroi    | B-6000     | Belgium   |
 | 50         | Maison Dewey               | Catherine Dewey  | Rue Joseph-Bens 532                 | Bruxelles    | B-1180     | Belgium   |
 | 88         | Wellington Importadora     | Paula Parente    | Rua do Mercado, 12                  | Resende      | 08737-363  | Brazil    |
+
+-->

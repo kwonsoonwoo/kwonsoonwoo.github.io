@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL LIKE Operator
+title: SQL LIKE Operator(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -9,6 +9,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/24)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -328,3 +332,4 @@ Number of Records: 90
 
 **총 테이블의 개수가 90개**
 
+-->

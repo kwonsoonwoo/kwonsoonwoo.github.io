@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL BETWEEN Operator
+title: SQL BETWEEN Operator(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -9,6 +9,12 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/18)
+
+
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -319,3 +325,5 @@ Number of Records: 5
 | 10250   | 34         | 4          | 7/8/1996  | 2         |
 | 10251   | 84         | 3          | 7/8/1996  | 1         |
 | 10252   | 76         | 4          | 7/9/1996  | 2         |
+
+-->
