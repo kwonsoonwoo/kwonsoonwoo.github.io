@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Syntax
+title: SQL Syntax(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -9,6 +9,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/36)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -130,3 +134,5 @@ SELECT * FROM Customers;
 - DROP TABLE - 테이블을 삭제합니다.
 - CREATE INDEX - 색인 (검색 키)을 작성합니다.
 - DROP INDEX - 색인을 삭제합니다.
+
+-->

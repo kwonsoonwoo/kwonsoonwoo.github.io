@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL SELECT Statement
+title: SQL SELECT Statement(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -8,6 +8,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/30)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -120,3 +124,5 @@ SELECT * FROM Customers;
 ```
 
 > [w3schools.com](www.w3schools.com/sql)에서 직접 실행해볼것
+
+-->

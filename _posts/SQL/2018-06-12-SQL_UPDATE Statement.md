@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL UPDATE Statement
+title: SQL UPDATE Statement(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -8,6 +8,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/38)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -215,3 +219,5 @@ You have made changes to the database. Rows affected: 94
 | 3          | Antonio Moreno Taquería            | Juan        | Mataderos 2312                | México D.F. | 05023      | Mexico  |
 | 4          | Around the Horn                    | Juan        | 120 Hanover Sq.               | London      | WA1 1DP    | UK      |
 | 5          | Berglunds snabbköp                 | Juan        | Berguvsvägen 8                | Luleå       | S-958 22   | Sweden  |
+
+-->

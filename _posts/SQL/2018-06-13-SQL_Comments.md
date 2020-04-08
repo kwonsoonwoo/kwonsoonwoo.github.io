@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Comments
+title: SQL Comments(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -8,6 +8,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/44)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -304,3 +308,5 @@ Number of Records: 5
 | 48         | Lonesome Pine Restaurant   | Juan        | 89 Chiaroscuro Rd.          | Portland      | 97219      | USA     |
 | 65         | Rattlesnake Canyon Grocery | Juan        | 2817 Milton Dr.             | Albuquerque   | 87110      | USA     |
 | 89         | White Clover Markets       | Juan        | 305 - 14th Ave. S. Suite 3B | Seattle       | 98128      | USA     |
+
+-->

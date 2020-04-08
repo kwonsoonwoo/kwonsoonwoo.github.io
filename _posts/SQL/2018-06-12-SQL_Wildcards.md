@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SQL Wildcards
+title: SQL Wildcards(티스토리 이전)
 category: SQL
 tags:
   - SQL
@@ -8,6 +8,10 @@ tags:
 ---
 
 
+
+[여기로 이동](https://lifetutorial.tistory.com/39)
+
+<!--
 
 [w3schools.com](www.w3schools.com/sql) 을 참조하여 해석해본 자료입니다.
 
@@ -326,5 +330,5 @@ Number of Records: 62
 
 **총 62개 Record가 있음**
 
-
+-->
 
