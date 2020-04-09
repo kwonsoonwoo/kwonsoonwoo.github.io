@@ -4,6 +4,7 @@ title: SQL INNER JOIN Keyword
 category: SQL
 tags:
   - SQL
+  - SQL INNER JOIN
 ---
 
 
