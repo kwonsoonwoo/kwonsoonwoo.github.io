@@ -4,6 +4,8 @@ title: SQL INSERT INTO SELECT Statement
 category: SQL
 tags:
   - SQL
+  - SQL INSERT INTO SELECT Statement
+  - SQL INSERT INTO SELECT 문
 ---
 
 
