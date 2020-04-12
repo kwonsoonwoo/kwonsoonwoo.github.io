@@ -4,6 +4,7 @@ title: SQL LEFT JOIN Keyword
 category: SQL
 tags:
   - SQL
+  - SQL LEFT JOIN 키워드
 ---
 
 
