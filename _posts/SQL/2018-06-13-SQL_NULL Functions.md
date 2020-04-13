@@ -4,6 +4,7 @@ title: SQL NULL Functions
 category: SQL
 tags:
   - SQL
+  - SQL NULL Functions
 ---
 
 
