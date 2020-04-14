@@ -4,6 +4,7 @@ title: SQL RIGHT JOIN Keyword
 category: SQL
 tags:
   - SQL
+  - SQL RIGHT JOIN
 ---
 
 
