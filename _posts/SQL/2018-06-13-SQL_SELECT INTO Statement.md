@@ -4,6 +4,7 @@ title: SQL SELECT INTO Statement
 category: SQL
 tags:
   - SQL
+  - SQL SELECT INTO 문
 ---
 
 
