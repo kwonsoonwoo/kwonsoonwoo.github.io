@@ -4,6 +4,8 @@ title: SQL UNION Operator
 category: SQL
 tags:
   - SQL
+  - SQL UNION Operator
+  - SQL 합집합 연산자
 ---
 
 
