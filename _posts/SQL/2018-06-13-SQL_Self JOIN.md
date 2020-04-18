@@ -4,6 +4,8 @@ title: SQL Self JOIN
 category: SQL
 tags:
   - SQL
+  - SQL Self Join
+  - SQL 
 ---
 
 
