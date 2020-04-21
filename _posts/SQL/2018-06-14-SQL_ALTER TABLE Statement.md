@@ -4,6 +4,8 @@ title: SQL ALTER TABLE Statement
 category: SQL
 tags:
   - SQL
+  - SQL ALTER TABLE Statement
+  - SQL ALTER TABLE 문
 ---
 
 
