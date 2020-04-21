@@ -4,6 +4,7 @@ title: SQL AUTO INCREMENT Field
 category: SQL
 tags:
   - SQL
+  - SQL AUTO INCREMENT Field
 ---
 
 
