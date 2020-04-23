@@ -4,6 +4,8 @@ title: SQL CHECK Constraint
 category: SQL
 tags:
   - SQL
+  - SQL CHECK Constraint
+  - SQL CHECK 제약조건
 ---
 
 
