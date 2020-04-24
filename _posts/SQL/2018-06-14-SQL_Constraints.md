@@ -4,6 +4,8 @@ title: SQL Constraints
 category: SQL
 tags:
   - SQL
+  - SQL Constraints
+  - SQL 제약조건
 ---
 
 
