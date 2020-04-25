@@ -4,6 +4,7 @@ title: SQL CREATE DATABASE Statement
 category: SQL
 tags:
   - SQL
+  - SQL CREATE DATABASE Statement
 ---
 
 
