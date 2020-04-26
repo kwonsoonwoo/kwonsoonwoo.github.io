@@ -4,6 +4,8 @@ title: SQL CREATE INDEX Statement
 category: SQL
 tags:
   - SQL
+  - SQL CREATE INDEX Statement
+  - SQL CREATE INDEX 문
 ---
 
 
