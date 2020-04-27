@@ -4,6 +4,8 @@ title: SQL CREATE TABLE Statement
 category: SQL
 tags:
   - SQL
+  - SQL CREATE TABLE Statement
+  - SQL CREATE TABLE 문
 ---
 
 
