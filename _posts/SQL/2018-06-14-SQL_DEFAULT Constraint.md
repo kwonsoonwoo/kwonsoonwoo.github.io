@@ -4,6 +4,8 @@ title: SQL DEFAULT Constraint
 category: SQL
 tags:
   - SQL
+  - SQL DEFAULT Constraint
+  - SQL 기본 제약조건
 ---
 
 
