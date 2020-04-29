@@ -4,6 +4,8 @@ title: SQL DROP TABLE Statement
 category: SQL
 tags:
   - SQL
+  - SQL DROP TABLE Statement
+  - SQL TABLE 삭제문
 ---
 
 
