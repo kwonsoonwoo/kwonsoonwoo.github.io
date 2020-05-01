@@ -4,6 +4,8 @@ title: SQL FOREIGN KEY Constraint
 category: SQL
 tags:
   - SQL
+  - SQL FOREIGN KEY Constraint
+  - SQL FOREIGN KEY 제약조건
 ---
 
 
