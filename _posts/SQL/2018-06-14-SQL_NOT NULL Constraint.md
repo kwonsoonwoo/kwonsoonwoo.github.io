@@ -4,6 +4,8 @@ title: SQL NOT NULL Constraint
 category: SQL
 tags:
   - SQL
+  - SQL NOT NULL Constraint
+  - SQL NOT NULL 제약조건
 ---
 
 
