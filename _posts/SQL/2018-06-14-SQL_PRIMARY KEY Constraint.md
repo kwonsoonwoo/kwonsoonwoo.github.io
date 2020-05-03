@@ -4,6 +4,8 @@ title: SQL PRIMARY KEY Constraint
 category: SQL
 tags:
   - SQL
+  - SQL PRIMARY KEY Constraint
+  - SQL 기본키 제약조건
 ---
 
 
