@@ -4,6 +4,8 @@ title: SQL UNIQUE Constraint
 category: SQL
 tags:
   - SQL
+  - SQL UNIQUE Constraint
+  - SQL UNIQUE 제약조건
 ---
 
 
