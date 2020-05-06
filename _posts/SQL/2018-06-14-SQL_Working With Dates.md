@@ -4,6 +4,7 @@ title: SQL Working With Dates
 category: SQL
 tags:
   - SQL
+  - SQL Working With Dates
 ---
 
 
