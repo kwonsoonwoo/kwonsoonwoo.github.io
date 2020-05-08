@@ -5,6 +5,7 @@ category: SQL
 tags:
   - SQL
   - Error
+  - Database is locked
 ---
 
 
