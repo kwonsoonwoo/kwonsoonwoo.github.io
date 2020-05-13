@@ -6,6 +6,7 @@ tags:
   - docker
   - tzdata
   - geographic area
+  - tzdata,geographic area 선택 에러
 ---
 
 
