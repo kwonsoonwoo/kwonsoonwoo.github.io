@@ -1,0 +1,43 @@
+---
+layout: post
+title: ng-checked
+category: TIL(Today I Learned)
+tags:
+  - TIL
+  - angularJS
+  - ng-checked
+---
+
+
+
+### 문제상황
+
+데이터 수정시 기존값이 선택된 채로 있어야 한다.
+
+---
+
+### 문제 해결
+
+- `ng-checked` 사용
+
+```javascript
+// 수정하려는 기존 데이터의 프로토콜 값이 HTTP
+<input type="radio" name="protocolRadio" id="protocolHTTP" ng-checked="pop.port.protocol == 'HTTP'">
+```
+
+![ngchecked](/assets/angularjs/ngchecked.PNG)
+
+
+
+
+
+---
+
+### Reference
+
+[angularjs에서-ngchecked-사용하여-체크박스-라디오-체크-변경하기](https://webisfree.com/2017-06-22/angularjs%EC%97%90%EC%84%9C-ngchecked-%EC%82%AC%EC%9A%A9%ED%95%98%EC%97%AC-%EC%B2%B4%ED%81%AC%EB%B0%95%EC%8A%A4-%EB%9D%BC%EB%94%94%EC%98%A4-%EC%B2%B4%ED%81%AC-%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0)
+
+[AngularJS ng-checked Directive](https://www.w3schools.com/angular/ng_ng-checked.asp)
+
+[angularjs 공식 문서](https://docs.angularjs.org/api/ng/directive/ngChecked)
+
