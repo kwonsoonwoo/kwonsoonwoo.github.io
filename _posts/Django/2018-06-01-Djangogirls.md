@@ -5,6 +5,7 @@ category: Django
 tags:
   - Django
   - Djangogirls
+  - Djangogirls 환경설정
 ---
 
 
