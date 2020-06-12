@@ -4,6 +4,7 @@ title: Python 제어문
 category: Python
 tags:
   - Python
+  - python 제어문
 ---
 
 
