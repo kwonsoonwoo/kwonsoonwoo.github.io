@@ -1,9 +1,8 @@
 ---
 layout: post
 title: ng-checked
-category: TIL(Today I Learned)
+category: AngularJS
 tags:
-  - TIL
   - angularJS
   - ng-checked
 ---

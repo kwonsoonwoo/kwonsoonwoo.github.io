@@ -4,6 +4,7 @@ title: Python 딕셔너리, 셋
 category: Python
 tags:
   - Python
+  - python 딕셔너리
 ---
 
 
