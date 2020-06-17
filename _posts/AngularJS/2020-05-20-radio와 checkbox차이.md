@@ -6,6 +6,7 @@ tags:
   - angularJS
   - radio와 checkbox의 차이
   - ng-repeat
+  - javascript
 ---
 
 
