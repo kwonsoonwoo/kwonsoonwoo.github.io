@@ -1,7 +1,7 @@
 ---
 layout: post
 title: radio와 checkbox 차이
-category: TIL(Today I Learned)
+category: AngularJS
 tags:
   - angularJS
   - radio와 checkbox의 차이
