@@ -4,6 +4,7 @@ title: 모듈과 패키지
 category: Python
 tags:
   - Python
+  - python 모듈과 패키지
 ---
 
 
