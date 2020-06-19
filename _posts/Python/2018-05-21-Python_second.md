@@ -4,6 +4,7 @@ title: 함수
 category: Python
 tags:
   - Python
+  - python 함수
 ---
 
 ## 함수
