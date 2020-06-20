@@ -4,6 +4,7 @@ title: 예외처리
 category: Python
 tags:
   - Python
+  - python 예외처리
 ---
 
 
