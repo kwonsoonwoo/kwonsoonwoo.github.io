@@ -4,7 +4,7 @@ title: 클래스 (class)
 category: Python
 tags:
   - Python
-  - Class
+  - Python Class
 ---
 
 
