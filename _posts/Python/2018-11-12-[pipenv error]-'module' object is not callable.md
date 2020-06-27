@@ -6,6 +6,7 @@ tags:
   - Python
   - pipenv error
   - Pipfile lock error
+  - 'module' object is not callable
 ---
 
 
