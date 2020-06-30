@@ -7,6 +7,7 @@ tags:
   - gcc
   - pip
   - error
+  - command 'x86_64-linux-gnu-gcc' failed with exit status 1
 ---
 
 
