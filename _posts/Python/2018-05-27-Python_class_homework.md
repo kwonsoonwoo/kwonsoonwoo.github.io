@@ -4,6 +4,7 @@ title: 클래스 실습
 category: Python
 tags:
   - Python
+  - python 클래스 실습
 ---
 
 
