@@ -5,6 +5,7 @@ category: ETC
 tags:
   - ETC
   - Intellij
+  - 인텔리제이
   - intellij invalidate Cache/Restart
 ---
 
