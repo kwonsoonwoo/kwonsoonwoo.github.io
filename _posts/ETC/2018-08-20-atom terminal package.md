@@ -5,6 +5,7 @@ category: ETC
 tags:
   - ETC
   - atom
+  - atom 터미널 패키지 설치
 ---
 
 
